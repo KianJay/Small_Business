@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 import Nav from './Nav';
-import Services from './Services';
-import About from './About';
-import Team from './Team';
-import Contact from './Contact';
-import Footer from './Footer';
+import Services from './components/pages/Services';
+import About from './components/pages//About';
+import Team from './components/pages//Team';
+import Contact from './components/pages/Contact';
+import Footer from './components/pages/Footer';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Paypal from './Paypal';
 import Gmap from './Gmap';
