@@ -6,36 +6,48 @@ import Team from './components/pages/Team';
 import Contact from './components/pages/Contact';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { Nav, NavItem } from 'reactstrap';
 
-const App = () => {
+const App = (props) => {
   return (
-    <Router>
-      <div>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
+    <Router class="nav">
+      <Nav class="nav-link active">
+        <Link class="nav-link" to="/">
+          Home
+        </Link>
+        <Link class="nav-link" to="/about">
+          About
+        </Link>
+        <Link class="nav-link" to="/services">
+          Services
+        </Link>
+        <Link class="nav-link" to="/team">
+          Team
+        </Link>
+        <Link class="nav-link" to="/contact">
+          Contact us
+        </Link>
+      </Nav>
 
-        <Link to="/services">Services</Link>
-        <Link to="/team">Team</Link>
-        <Link to="/contact">Contact us</Link>
-        <hr />
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/services">
-            <Services />
-          </Route>
-          <Route path="/team">
-            <Team />
-          </Route>
-        </Switch>
-      </div>
+      <hr />
+
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
+        <Route path="/services">
+          <Services />
+        </Route>
+        <Route path="/team">
+          <Team />
+        </Route>
+      </Switch>
     </Router>
   );
 };
