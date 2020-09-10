@@ -1,100 +1,43 @@
 import React from 'react';
 import './App.css';
-import Nav from './Nav';
 import Services from './components/pages/Services';
-import About from './components/pages//About';
-import Team from './components/pages//Team';
+import About from './components/pages/About';
+import Team from './components/pages/Team';
 import Contact from './components/pages/Contact';
-import Footer from './components/pages/Footer';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Paypal from './Paypal';
-import Gmap from './Gmap';
+import Home from './components/pages/Home';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
-function App() {
+const App = () => {
   return (
     <Router>
-      <div className="App">
-        <Nav />
+      <div>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+
+        <Link to="/services">Services</Link>
+        <Link to="/team">Team</Link>
+        <Link to="/contact">Contact us</Link>
+        <hr />
         <Switch>
-          <Route path="/about" component={About} />
-          <Route path="/services" component={Services} />
-          <Route path="/team" component={Team} />
-          <Route path="/contact" component={Contact} />
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+          <Route path="/services">
+            <Services />
+          </Route>
+          <Route path="/team">
+            <Team />
+          </Route>
         </Switch>
-
-        <header class="masthead">
-          <div class="container">
-            <div className="intro-text">
-              <div class="intro-lead-in">Welcome To DeepHead!</div>
-              <div class="intro-heading text-uppercase">
-                We are IT consulting experts!
-              </div>
-              <a
-                class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-                href="#services"
-              >
-                Tell us your time
-              </a>
-            </div>
-          </div>
-        </header>
-
-        <section class="page-section" id="services">
-          <div class="container">
-            <div class="text-center">
-              <h2 class="section-heading text-uppercase">Services</h2>
-              <h3 class="section-subheading text-muted">
-                Care about customers
-              </h3>
-            </div>
-            <div class="row text-center">
-              <div class="col-md-4">
-                <span class="fa-stack fa-4x">
-                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                  <i class="fa fa-gear fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="my-3">Optimisation</h4>
-                <p class="text-muted">
-                  We provide the best quality of e-commerce websites based on
-                  our experience and with the latest technologies.{' '}
-                </p>
-              </div>
-              <div class="col-md-4">
-                <span class="fa-stack fa-4x">
-                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                  <i class="fas fa-palette fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="my-3">UX/UI</h4>
-                <p class="text-muted">
-                  We provide bespoke User Interface Design (UI) & User
-                  Experience Design(UX) so that customers websites look like
-                  much more appealing.
-                </p>
-              </div>
-              <div class="col-md-4">
-                <span class="fa-stack fa-4x">
-                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                  <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="my-3">Web Security</h4>
-                <p class="text-muted">
-                  Prventing cyber attacks and protecting websites are crucial
-                  nowadays. We provide the latest security technologies for our
-                  customers
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <footer>
-          <Gmap />
-          <Footer />
-          <Paypal />
-        </footer>
       </div>
     </Router>
   );
-}
+};
 
 export default App;
