@@ -8,6 +8,7 @@ import Contact from './Contact';
 import Footer from './Footer';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Paypal from './Paypal';
+import Gmap from './Gmap';
 
 function App() {
   return (
@@ -87,6 +88,7 @@ function App() {
         </section>
 
         <footer>
+          <Gmap />
           <Footer />
           <Paypal />
         </footer>
