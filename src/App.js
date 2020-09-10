@@ -18,28 +18,28 @@ const App = (props) => {
         alt="logo"
       />
       <hr />
-      <Container>
-        <Nav class="navbar navbar-dark bg-dark ">
-          <Link class="nav-link" to="/">
+      <ul class="nav justify-content-center">
+        <Nav class="nav justify-content-space-evenly">
+          <Link class="navbar navbar-custom" to="/">
             Home
           </Link>
-          <Link class="nav-link" to="/about">
+          <Link class="navbar navbar-custom" to="/about">
             About
           </Link>
-          <Link class="nav-link" to="/services">
+          <Link class="navbar navbar-custom" to="/services">
             Services
           </Link>
-          <Link class="nav-link" to="/team">
+          <Link class="navbar navbar-custom" to="/team">
             Team
           </Link>
-          <Link class="nav-link" to="/contact">
+          <Link class="navbar navbar-custom" to="/contact">
             Contact us
           </Link>
-          <Link class="nav-link" to="/price">
+          <Link class="navbar navbar-custom" to="/price">
             Price
           </Link>
         </Nav>
-      </Container>
+      </ul>
       <hr />
       <Switch>
         <Route exact path="/">
