@@ -7,6 +7,7 @@ import Team from './Team';
 import Contact from './Contact';
 import Footer from './Footer';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Paypal from './Paypal';
 
 function App() {
   return (
@@ -87,6 +88,7 @@ function App() {
 
         <footer>
           <Footer />
+          <Paypal />
         </footer>
       </div>
     </Router>
