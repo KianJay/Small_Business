@@ -6,31 +6,41 @@ import Team from './components/pages/Team';
 import Contact from './components/pages/Contact';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import { Nav, NavItem } from 'reactstrap';
+import { Nav, Container } from 'reactstrap';
+import Price from './components/pages/Price';
 
 const App = (props) => {
   return (
-    <Router class="nav">
-      <Nav class="nav-link active">
-        <Link class="nav-link" to="/">
-          Home
-        </Link>
-        <Link class="nav-link" to="/about">
-          About
-        </Link>
-        <Link class="nav-link" to="/services">
-          Services
-        </Link>
-        <Link class="nav-link" to="/team">
-          Team
-        </Link>
-        <Link class="nav-link" to="/contact">
-          Contact us
-        </Link>
-      </Nav>
-
+    <Router>
+      <img
+        className="center"
+        src={require('./assets/img/deep_head_2.png')}
+        alt="logo"
+      />
       <hr />
-
+      <Container>
+        <Nav class="navbar navbar-dark bg-dark ">
+          <Link class="nav-link" to="/">
+            Home
+          </Link>
+          <Link class="nav-link" to="/about">
+            About
+          </Link>
+          <Link class="nav-link" to="/services">
+            Services
+          </Link>
+          <Link class="nav-link" to="/team">
+            Team
+          </Link>
+          <Link class="nav-link" to="/contact">
+            Contact us
+          </Link>
+          <Link class="nav-link" to="/price">
+            Price
+          </Link>
+        </Nav>
+      </Container>
+      <hr />
       <Switch>
         <Route exact path="/">
           <Home />
@@ -47,13 +57,12 @@ const App = (props) => {
         <Route path="/team">
           <Team />
         </Route>
+        <Route path="/price">
+          <Price />
+        </Route>
       </Switch>
     </Router>
   );
-};
-
-const nav_center = {
-  justifyContent: 'center',
 };
 
 export default App;
