@@ -52,4 +52,8 @@ const App = (props) => {
   );
 };
 
+const nav_center = {
+  justifyContent: 'center',
+};
+
 export default App;
