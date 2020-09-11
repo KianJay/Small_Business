@@ -1,17 +1,33 @@
-import React, { useState } from "react";
-import "react-modern-calendar-datepicker/lib/DatePicker.css";
-import { Calendar, utils } from "react-modern-calendar-datepicker";
+import React from 'react';
+import ModernDatepicker from 'react-modern-datepicker';
 
-const DatePicker = () => {
-  const [selectedDay, setSelectedDay] = useState(null);
-  return (
-    <Calendar
-      value={selectedDay}
-      onChange={setSelectedDay}
-      minimumDate={utils().getToday()}
-      shouldHighlightWeekends
-    />
-  );
-};
+class DatePickers extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			startDate: new Date(), // can be any of these ['dayjs()', '', null, new Date(2018,12,1)]
+		};
+		this.handleChange = this.handleChange.bind(this);
+	}
 
-export default DatePicker;
+	handleChange(date) {
+		this.setState({
+			startDate: date,
+		});
+	}
+
+	render() {
+		return (
+			<ModernDatepicker
+				date={this.state.startDate}
+        format={'DD-MM-YYYY'}
+        minDate={this.state.startDate}
+				showBorder
+				onChange={date => this.handleChange(date)}
+				placeholder={'Select a date'}
+			/>
+		);
+	}
+}
+
+export default DatePickers;

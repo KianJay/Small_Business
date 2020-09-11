@@ -1,4 +1,6 @@
 import React from 'react';
+import Paypal from './Paypal';
+
 
 const Price = () => {
   return (
@@ -50,6 +52,7 @@ const Price = () => {
                 <li>Priority email support</li>
                 <li>Help center access</li>
               </ul>
+              <Paypal/>    
               <button type="button" class="btn btn-lg btn-block btn-primary">
                 Get started
               </button>

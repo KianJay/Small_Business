@@ -13,10 +13,41 @@ function About() {
           </div>
           <ul class="timeline">
             <li>
+              <div class="timeline-image"><img class="rounded-circle img-fluid" src={require('../assets/img/W_deep_head.png')} alt="" /></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>Sep.2020</h4>
+                  <h4 class="subheading">Our Humble Beginnings</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">
+                    Our journey just started with three members: Duyoung, Insub and Sohwa!
+                  </p>
+                  <p class="text-muted">
+                    We are studying at the same university Victoria University
+                    in Sydney and started this journey together!
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">  
+            <div class="timeline-image">
+              <img class="rounded-circle img-fluid" 
+                   src={require}
+                   alt="" /></div>
+               <div class="timeline-panel">
+                <div class="timeline-heading">
+                 <h4>March 2011</h4>
+                 <h4 class="subheading">An Agency is Born</h4>
+                </div>
+               <div class="timeline-body"><p class="text-muted">It is it is</p></div>
+              </div>
+            </li>
+            <li>
               <div class="timeline-image">
                 <img
                   class="rounded-circle img-fluid"
-                  src={require('../assets/img/W_deep_head.png')}
+                  src={require('../../assets/img/about_bg.png')}
                   alt=""
                 />
               </div>

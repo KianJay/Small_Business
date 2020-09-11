@@ -2,7 +2,8 @@ import React from 'react';
 import Gmap from './Gmap';
 import Footer from './Footer';
 import Paypal from './Paypal';
-import Datepicker from './Datepicker';
+import HomeContact from './HomeContact';
+
 
 const Home = () => {
   return (
@@ -16,7 +17,7 @@ const Home = () => {
             </div>
             <a
               class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-              href="#services"
+              href="#homecontact"
             >
               Tell us your time
             </a>
@@ -27,17 +28,9 @@ const Home = () => {
       <div style={temp}>
         <h1>(Home page) Currently Under the construction </h1>
       </div>
-      <section class="page-section" id="services">
-        <div class="container">
-          <div class="text-center">
-            <h2 class="section-heading text-uppercase">Booking</h2>
-            <h3 class="section-subheading text-muted">Select your best time</h3>
-          </div>
-          <div class="datepicker">
-            <Datepicker/>
-          </div>
-        </div>
-      </section>
+      <div id="homecontact">
+      <HomeContact/>
+      </div>
       <hr />
       <footer>
         <Gmap />

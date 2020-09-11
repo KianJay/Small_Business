@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Footer from './Footer';
+import Datepicker from './Datepicker';
 
 const Contact = () => {
   return (
@@ -16,6 +17,10 @@ const Contact = () => {
           <form id="contactForm" name="sentMessage" novalidate="novalidate">
             <div class="row align-items-stretch mb-5">
               <div class="col-md-6">
+                <div class="form-group" id="Datepicker">
+                  <Datepicker/>
+                <p class="help-block text-danger"></p>
+                </div>
                 <div class="form-group">
                   <input
                     class="form-control"
@@ -35,17 +40,6 @@ const Contact = () => {
                     placeholder="Your Email *"
                     required="required"
                     data-validation-required-message="Please enter your email address."
-                  />
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="form-group mb-md-0">
-                  <input
-                    class="form-control"
-                    id="phone"
-                    type="tel"
-                    placeholder="Your Phone *"
-                    required="required"
-                    data-validation-required-message="Please enter your phone number."
                   />
                   <p class="help-block text-danger"></p>
                 </div>
