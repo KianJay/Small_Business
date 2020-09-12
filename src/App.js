@@ -12,11 +12,11 @@ import Price from './components/pages/Price';
 const App = (props) => {
   return (
     <Router>
-      <img
+      <div class="p-3"><img
         className="center"
         src={require('./assets/img/deep_head_2.png')}
         alt="logo"
-      />
+      /></div>
       <hr />
       <ul class="nav justify-content-center">
         <Nav class="nav justify-content-space-evenly">
