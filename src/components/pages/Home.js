@@ -37,27 +37,27 @@ const Home = () => {
   );
 };
 
-const sectionStyle = {
-  width: '100vw',
-  height: '100vh',
-  margin: '0',
-  backgroundSize: 'cover',
-  backgroundRepeat: 'no-repeat',
-  backgroundPostion: 'center',
-  backgroundImage: `url(${Background})`,
-};
+// const sectionStyle = {
+//   width: '100vw',
+//   height: '100vh',
+//   margin: '0',
+//   backgroundSize: 'cover',
+//   backgroundRepeat: 'no-repeat',
+//   backgroundPostion: 'center',
+//   backgroundImage: `url(${Background})`,
+// };
 
-const connect = {
-  fontSize: '3.2em',
-  color: '#EAF2F8',
-  fontFamily: 'Montserrat, sansSerif',
-};
+// const connect = {
+//   fontSize: '3.2em',
+//   color: '#EAF2F8',
+//   fontFamily: 'Montserrat, sansSerif',
+// };
 
-const succ = {
-  fontSize: '1em',
-  fontFamily: 'Montserrat, sansSerif',
-  color: '#212121',
-};
+// const succ = {
+//   fontSize: '1em',
+//   fontFamily: 'Montserrat, sansSerif',
+//   color: '#212121',
+// };
 //   return (
 //     <div>
 //       <header class="masthead">
