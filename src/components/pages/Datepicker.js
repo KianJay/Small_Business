@@ -20,8 +20,8 @@ class DatePickers extends React.Component {
 		return (
 			<ModernDatepicker
 				date={this.state.startDate}
-        format={'DD-MM-YYYY'}
-        minDate={this.state.startDate}
+        		format={'DD-MM-YYYY'}
+        		minDate={this.state.startDate}
 				showBorder
 				onChange={date => this.handleChange(date)}
 				placeholder={'Select a date'}

@@ -1,6 +1,6 @@
 import React from 'react';
 import Paypal from './Paypal';
-
+import Footer from './Footer';
 
 const Price = () => {
   return (
@@ -53,6 +53,7 @@ const Price = () => {
                 <li>Help center access</li>
               </ul>
               <Paypal/>    
+              <br />
               <button type="button" class="btn btn-lg btn-block btn-primary">
                 Get started
               </button>
@@ -79,6 +80,7 @@ const Price = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </body>
   );
 };
