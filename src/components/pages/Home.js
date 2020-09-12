@@ -12,7 +12,7 @@ const Home = () => {
         <div class="container">
           <div className="intro-text">
             <div class="intro-lead-in">Welcome To DeepHead!</div>
-            <div class="intro-heading text-uppercase">
+            <div class="intro-heading text-uppercase-white">
               We are IT consulting experts!
             </div>
             <a
