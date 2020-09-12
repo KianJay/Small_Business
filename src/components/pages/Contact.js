@@ -2,30 +2,28 @@ import React from 'react';
 import './App.css';
 import Footer from './Footer';
 import Datepicker from './Datepicker';
+import Gmap from './Gmap';
 
 const Contact = () => {
   return (
     <div className="Contact">
-    <header class="conthead">
-
-    <div class="row">
-      <div class="col-lg-7" id="right-col">
-      </div>
-      <div class="col-md-4">
-        <h1 class="my-3-header-2"> Contact us! </h1>
-        
-        <p class="subcontact text-muted">        Do you have any issue/question?        </p>
-        <p class="subcontact text-muted">        Do you have any question?        </p>
-        <p class="subcontact text-muted">        Do you have any help?        </p>
-        
+      <header class="conthead">
         <div class="row">
+          <div class="col-lg-7" id="right-col"></div>
+          <div class="col-md-4">
+            <h1 class="my-3-header-2"> Contact us! </h1>
 
+            <p class="subcontact text-muted">
+              {' '}
+              Do you have any issue/question?{' '}
+            </p>
+            <p class="subcontact text-muted"> Do you have any question? </p>
+            <p class="subcontact text-muted"> Do you have any help? </p>
+
+            <div class="row"></div>
+          </div>
         </div>
-      </div>
-
-    </div>
-
-  </header>
+      </header>
 
       <section class="page-section" id="contact">
         <div class="container">
@@ -39,8 +37,8 @@ const Contact = () => {
             <div class="row align-items-stretch mb-5">
               <div class="col-md-6">
                 <div class="form-group" id="Datepicker">
-                  <Datepicker/>
-                <p class="help-block text-danger"></p>
+                  <Datepicker />
+                  <p class="help-block text-danger"></p>
                 </div>
                 <div class="form-group">
                   <input
@@ -91,6 +89,7 @@ const Contact = () => {
           </form>
         </div>
       </section>
+      <Gmap />
       <footer>
         <Footer />
       </footer>

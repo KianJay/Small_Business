@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
 import Footer from './Footer';
+import Duyoung from './assets/img/Duyoung.png';
+import Insub from './assets/img/Insub.jpg';
+import Sohwa from './assets/img/Sohwa.jpg';
 
 function Team() {
   return (
@@ -16,11 +19,7 @@ function Team() {
           <div class="row">
             <div class="col-lg-4">
               <div class="team-member">
-                <img
-                  class="mx-auto rounded-circle"
-                  src={require('../assets/img/Duyoung.png')}
-                  alt=""
-                />
+                <img class="mx-auto rounded-circle" src={Duyoung} alt="" />
                 <h4>Duyoung Jang</h4>
                 <p class="text-muted">Chief Executive Officer (CEO)</p>
                 <a
@@ -39,11 +38,7 @@ function Team() {
             </div>
             <div class="col-lg-4">
               <div class="team-member">
-                <img
-                  class="mx-auto rounded-circle"
-                  src={require('../assets/img/Insub.jpg')}
-                  alt=""
-                />
+                <img class="mx-auto rounded-circle" src={Insub} alt="" />
                 <h4>Insub Kim</h4>
                 <p class="text-muted">Chief Technology Officer (CTO)</p>
                 <a
@@ -62,11 +57,7 @@ function Team() {
             </div>
             <div class="col-lg-4">
               <div class="team-member">
-                <img
-                  class="mx-auto rounded-circle"
-                  src={require('../assets/img/Sohwa.jpg')}
-                  alt=""
-                />
+                <img class="mx-auto rounded-circle" src={Sohwa} alt="" />
                 <h4>Sohwa Lee</h4>
                 <p class="text-muted">Chief Strategy Officer (CSO)</p>
                 <a
