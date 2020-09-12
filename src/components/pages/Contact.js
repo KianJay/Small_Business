@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Footer from './Footer';
 import Datepicker from './Datepicker';
+import ContactUsMail from './Email';
 
 const Contact = () => {
   return (
@@ -13,20 +14,15 @@ const Contact = () => {
       </div>
       <div class="col-md-4">
         <h1 class="my-3-header-2"> Contact us! </h1>
-        
         <p class="subcontact text-muted">        Do you have any issue/question?        </p>
         <p class="subcontact text-muted">        Do you have any question?        </p>
         <p class="subcontact text-muted">        Do you have any help?        </p>
-        
         <div class="row">
-
         </div>
       </div>
-
     </div>
-
   </header>
-
+<ContactUsMail/>
       <section class="page-section" id="contact">
         <div class="container">
           <div class="text-center">
@@ -95,7 +91,10 @@ const Contact = () => {
         <Footer />
       </footer>
     </div>
-  );
+  
+    );
 };
+
+
 
 export default Contact;

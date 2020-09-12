@@ -20,7 +20,9 @@ function Team() {
               /Big data analysing /ICT management.
               Our philosophy is to focus on the client’s needs. 
               Chief Executive Officer(CEO), Chief Operating Officer (COO), 
-              Chief Technology Officer (CTO) and Chief Marketing Officer (CMO).</p></h6>
+              Chief Technology Officer (CTO) and Chief Marketing Officer (CMO).
+              </p>
+              </h6>
               </div>
             </h4>
           </div>
@@ -49,7 +51,8 @@ function Team() {
                 </a>
                 <p class="p-3">He is responsible for strategy, vision and growth of the 
                 company and has the ability to rise above the daily details and
-                 decide where the industry and business are headed.</p> 
+                 decide where the industry and business are headed.
+                </p> 
               </div>
             </div>
             <div class="col-lg-4 p-5">
@@ -76,7 +79,7 @@ function Team() {
                 <p class="p-3">He is responsible for the development and 
                 architecture of Enterprise Web Applications and knows how 
                 collaboration and mutual inspiration. 
-</p> 
+                </p>
               </div>
             </div>
             <div class="col-lg-4 p-5">
