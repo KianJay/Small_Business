@@ -5,6 +5,8 @@ import Home from './components/pages/Home';
 import Price from './components/pages/Price';
 import logo from './components/pages/assets/img/logo192.png';
 import Services from './components/pages/Services';
+import Pay from './components/pages/Pay';
+import NotFound from './components/pages/NotFound';
 import './App.css';
 
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
@@ -75,6 +77,10 @@ export default function App() {
         <Route path="/price">
           <Price />
         </Route>
+        <Route path="/pay">
+          <Pay />
+        </Route>
+        <Route component={NotFound} />
       </Switch>
     </Router>
   );
