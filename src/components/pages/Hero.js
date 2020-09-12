@@ -1,7 +1,7 @@
 import React from 'react';
 import background from './assets/img/bg2.jpeg';
-import background2 from './assets/img/bg3.jpg';
-import background3 from './assets/img/bg4.jpeg';
+import background2 from './assets/img/bg7.jpg';
+import background3 from './assets/img/bh6.jpg';
 import Duyoung from './assets/img/Duyoung.png';
 
 import './carousel.css';
@@ -133,7 +133,7 @@ const Hero = () => {
               class="bd-placeholder-img rounded-circle"
               width="140"
               height="140"
-              xmlns={Duyoung}
+              xmlns=""
               preserveAspectRatio="xMidYMid slice"
               focusable="false"
               role="img"
