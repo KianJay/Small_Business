@@ -4,25 +4,26 @@ import Footer from './Footer';
 function Services() {
   return (
     <div className="App">
-    <header class="servhead">
-      <div class="row">
-        <div class="col-md-5">
-          <h1 class="my-3-header-1 text-muted"> Get the best services that help your business improve! </h1>
-          <div class="ser-btn">
-          <a   
-              class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-              href="./Price"
-            >
-              Get it free
-            </a>
+      <header class="servhead">
+        <div class="row">
+          <div class="col-md-5">
+            <h1 class="my-3-header-1 text-muted">
+              Get the best services that help your business improve!{' '}
+            </h1>
+            <div class="ser-btn">
+              <a
+                class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
+                href="./Price"
+              >
+                Get it free
+              </a>
             </div>
+          </div>
+          <div class="col-lg" id="right-col"></div>
         </div>
-        <div class="col-lg" id="right-col">
-        </div>
-      </div>
-    </header>
+      </header>
 
-      <section class="page-section" id="services">   
+      <section class="page-section" id="services">
         <div class="container">
           <div class="text-center">
             <h2 class="section-heading text-uppercase">Services</h2>
@@ -67,11 +68,9 @@ function Services() {
           </div>
         </div>
       </section>
-      <br/>
-      <br/>
-      <footer>
-        <Footer />
-      </footer>
+      <br />
+      <br />
+      <Footer />
     </div>
   );
 }
