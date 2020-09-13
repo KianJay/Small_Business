@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 import Footer from './Footer';
 
 function Services() {
@@ -6,7 +7,7 @@ function Services() {
     <div className="App">
       <header class="servhead">
         <div class="row">
-          <div class="col-md-5">
+          <div class="col-md-5" id="left-col">
             <h1 class="my-3-header-1 text-muted">
               Get the best services that help your business improve!{' '}
             </h1>
