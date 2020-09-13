@@ -13,78 +13,37 @@ const About = () => {
                 <h1>
                   About <span>Deep head</span>
                 </h1>
+                <br/>
                 <h3>About us </h3>
                 <p class="about-paddingB">
-                  what we do ? Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Donec aliquet dolor libero, eget venenatis
-                  mauris finibus dictum. Vestibulum quis elit eget neque
-                  porttitor congue non sit amet dolor. Proin pretium purus a
-                  lorem ornare{' '}
+                Our journey just started with three members: Duyoung, Insub and Sohwa.
+                The Deep-Head team is highly experienced in developing new platforms in general,
+                 and growth strategies in particular. Our team is made by SEO experts, 
+                 UI/UX Design team, and Software development team in areas related to regulation,
+                  web, mobile, online, B2B/B2C platforms. Deep-Head’s principals average over 10 years’ experience 
+                  in this field. The teams combine industry-leading Big Data and strategic insights 
+                  with practical experience in prioritizing, igniting, and monetizing innovation in 
+                  platform businesses big and small.{' '}
                 </p>
-                <p>
-                  sed lobortis pulvinar. Integer laoreet mi id eros porta
-                  euismod. Suspendisse potenti. Nulla eros mauris, convallis et
-                  sem tempus, viverra hendrerit sapien
-                </p>
+                <p></p>
                 <h3> Vision </h3>
-                <p>
-                  sed lobortis pulvinar. Integer laoreet mi id eros porta
-                  euismod. Suspendisse potenti. Nulla eros mauris, convallis et
-                  sem tempus, viverra hendrerit sapien
-                </p>
+                <div class="text-muted">
+                  <a> •	We trust each other and have a good time succeeding together. </a><br/>
+                  <a> • The happier clients are, the more successful we are. </a><br/>
+                  <a> •	We are a global team that values diversity. </a><br/>
+                  <a> •	We create sustainable growth. </a><br/>
+                </div>
+                <br/>
                 <h3>Goal</h3>
-                <p>
-                  sed lobortis pulvinar. Integer laoreet mi id eros porta
-                  euismod. Suspendisse potenti. Nulla eros mauris, convallis et
-                  sem tempus, viverra hendrerit sapien
-                </p>
-                <div class="about-icons">
-                  <ul>
-                    <li>
-                      <a href="https://www.facebook.com/">
-                        <i
-                          id="social-fb"
-                          class="fa fa-facebook-square fa-3x social"
-                        ></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://twitter.com/">
-                        <i
-                          id="social-tw"
-                          class="fa fa-twitter-square fa-3x social"
-                        ></i>
-                      </a>{' '}
-                    </li>
-                    <li>
-                      {' '}
-                      <a href="https://plus.google.com/">
-                        <i
-                          id="social-gp"
-                          class="fa fa-google-plus-square fa-3x social"
-                        ></i>
-                      </a>{' '}
-                    </li>
-                    <li>
-                      {' '}
-                      <a href="mailto:bootsnipp@gmail.com">
-                        <i
-                          id="social-em"
-                          class="fa fa-envelope-square fa-3x social"
-                        ></i>
-                      </a>{' '}
-                    </li>
-                  </ul>
+                <div class="text-muted">
+                  <a> •	Always being conneted with customers to provide theri needs. </a><br/>
+                  <a> •	Retain the 1st position in the world in the same line of business. </a><br/>
+                  <a> • Create the products and services that give customers the best satisfaction. </a><br/>
                 </div>
               </div>
             </div>
-            <div class="col-md-5 col-sm-6">
-              <div class="about-img">
-                <img
-                  src="https://devitems.com/preview/appmom/img/mobile/2.png"
-                  alt=""
-                />
-              </div>
+
+            <div class="about-img col-md-5 col-sm-6">
             </div>
           </div>
         </div>

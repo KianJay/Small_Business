@@ -26,7 +26,8 @@ function Footer() {
           <a href="https://www.instagram.com/deep_____head/" target="_blank">
             <img src={Instagram} />
           </a>
-          <p> &copy; 2017-2020 DeepHead, Inc. </p>
+          <br/><br/>
+          <p> &copy; 2020 DeepHead, Inc. </p>
         </div>
       </div>
     </footer>

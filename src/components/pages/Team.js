@@ -50,7 +50,7 @@ function Team() {
                   <i class="fab fa-linkedin-in"></i>
                 </a>
                 <p class="p-3">
-                  He is responsible for strategy, vision and growth of the
+                  Duyoung is responsible for strategy, vision and growth of the
                   company and has the ability to rise above the daily details
                   and decide where the industry and business are headed.
                 </p>
@@ -74,7 +74,7 @@ function Team() {
                   <i class="fab fa-linkedin-in"></i>
                 </a>
                 <p class="p-3">
-                  He is responsible for the development and architecture of
+                  Insub is responsible for the development and architecture of
                   Enterprise Web Applications and knows how collaboration and
                   mutual inspiration.
                 </p>
@@ -98,7 +98,7 @@ function Team() {
                   <i class="fab fa-linkedin-in"></i>
                 </a>
                 <p class="p-3">
-                  She is responsible for business development and advising
+                  Sohwa is responsible for business development and advising
                   clients in the area of UI/UX Design.
                 </p>
               </div>
