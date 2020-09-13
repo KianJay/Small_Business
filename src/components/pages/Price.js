@@ -38,9 +38,13 @@ const Price = () => {
                   <li>Email support</li>
                   <li>Help center access</li>
                 </ul>
+                <button type="button" class="btn btn-sm btn-outline-success p-2">
+                Limited access
+              </button><br /> <br /> 
+
                 <button
                   type="button"
-                  class="btn btn-lg btn-block btn-outline-primary"
+                  class="btn btn-lg btn-block btn-outline-success"
                 >
                   Sign up for free
                 </button>
@@ -60,6 +64,10 @@ const Price = () => {
                   <li>Priority email support</li>
                   <li>Help center access</li>
                 </ul>
+                <button type="button" class="btn btn-sm btn-outline-info p-2">
+              Get Access
+              </button><br /> <br />
+
                 <button type="button" class="btn btn-lg btn-block btn-info">
                   <Link to="Pay"> Get Started </Link>
                 </button>
@@ -79,7 +87,10 @@ const Price = () => {
                   <li>Phone and email support</li>
                   <li>Help center access</li>
                 </ul>
-                <button type="button" class="btn btn-lg btn-block btn-info">
+                <button type="button" class="btn btn-sm btn-outline-danger p-2">
+              Booste your Business
+              </button><br /> <br />
+                <button type="button" class="btn btn-lg btn-block btn-danger">
                   <Link to="Pay"> Get Started </Link>
                 </button>
               </div>

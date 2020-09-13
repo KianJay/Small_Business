@@ -1,5 +1,6 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
+import Instagram from './assets/img/instagram.png';
 
 export default function ContactUsMail() {
 
@@ -20,10 +21,15 @@ export default function ContactUsMail() {
       <section class="page-section" id="contact">
         <div class="container">
           <div class="text-center">
-            <h2 class="section-heading text-uppercase">Contact Us</h2>
-            <h3 class="section-subheading">
-              Our address: 160 Sussex St, Sydney NSW 2000
-            </h3>
+            <h2 class="section-heading text-uppercase p-3">Contact Us</h2>
+            <h6 class="section-subheading font-weight-light text-white">
+            <a href="https://www.instagram.com/deep_____head/" target="_blank" class="text-white" STYLE="text-decoration:none">
+              <img  src={Instagram} />&nbsp;@deep_____head
+            </a><br /><br />
+              Phone: 000 111 222<br/>
+              Address: 160 Sussex St, Sydney NSW 2000
+            </h6>
+            <br/><br/>
           </div>
     
               <form className="contact-form" id="contactForm" onSubmit={sendEmail}>
