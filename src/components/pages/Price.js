@@ -39,7 +39,6 @@ const Price = () => {
                 <br/><br/><br/>
                   <li>Only one user can access</li>
                   <li>Free Forum Support</li>
-                  <li>Access to 1 Tutorial</li>
                   <li>Access to open Help center</li>
                 </ul><br/><br/><br/><br/>
                 <span class="badge badge-light">Limited access</span>
@@ -67,7 +66,6 @@ const Price = () => {
                 <br/><br/><br/>
                   <li>15 users can access</li>
                   <li>Access to Pro Forum</li>
-                  <li>Access to all Tutorials</li>
                   <li>Email and Online chat Priority Support</li>
                   <li>Access to Member only Help center</li>
                 </ul><br/><br/>
@@ -96,7 +94,6 @@ const Price = () => {
                 <br/><br/>
                   <li>30 users can access</li>
                   <li>Access to Enterprise Forum</li>
-                  <li>Access to all Tutorials</li>
                   <li>Email and Online chat Priority Support</li>
                   <li>Access to Member only Help center</li>
                   <li>Provide Online Free Platform consulting Once</li>
