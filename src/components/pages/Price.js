@@ -65,7 +65,7 @@ const Price = () => {
                   <li>Help center access</li>
                 </ul>
                 <button type="button" class="btn btn-sm btn-outline-info p-2">
-              Get Access
+              Get full Access
               </button><br /> <br />
 
                 <button type="button" class="btn btn-lg btn-block btn-info">

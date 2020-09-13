@@ -3,6 +3,11 @@ import background from './assets/img/bg2.jpeg';
 import background2 from './assets/img/bg7.jpg';
 import background3 from './assets/img/bh6.jpg';
 import Duyoung from './assets/img/Duyoung.png';
+import Insub from './assets/img/Insub.jpg';
+import Sohwa from './assets/img/Sohwa.jpg';
+import Main1 from './assets/img/main1.jpg';
+import Main2 from './assets/img/main2.jpg';
+import Main3 from './assets/img/main3.jpg';
 import { Link } from 'react-router-dom';
 
 import './carousel.css';
@@ -18,7 +23,7 @@ const Hero = () => {
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src={background} class="d-block w-100" alt="..." />
+            <img src={background} class="d-block w-100 " alt="..." />
             <svg
               class="bd-placeholder-img"
               width="100%"
@@ -33,14 +38,16 @@ const Hero = () => {
 
             <div class="container">
               <div class="carousel-caption text-left">
-                <h1>Example headline.</h1>
-                <p>
-                  Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                  Donec id elit non mi porta gravida at eget metus. Nullam id
-                  dolor id nibh ultricies vehicula ut id elit.
+                <h1 class="text-dark bg-light w-50">Best People.</h1>
+                <p class="text-dark bg-light w-100">
+                Deep head is a partnership company by 3 people from Australia, 
+                and Korea, then provide them with ongoing structured training, 
+                along with the best tools, support, processes, and leadership.
+                
+
                 </p>
                 <p>
-                  <Link to="team" class="btn btn-lg btn-info" role="button">
+                  <Link to="team" class="btn btn-lg btn-dark" role="button">
                     Team
                   </Link>
                 </p>
@@ -62,14 +69,16 @@ const Hero = () => {
             </svg>
             <div class="container">
               <div class="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>
-                  Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                  Donec id elit non mi porta gravida at eget metus. Nullam id
-                  dolor id nibh ultricies vehicula ut id elit.
+                <h1 class="bg-primary opacity-3">Expert Advice.</h1>
+                <p class="bg-primary">
+                Our technical teams have considerable experience designing and 
+                supporting solutions across the full spectrum. You gain the benefit 
+                of balanced advice without any vendor bias.
+
+
                 </p>
                 <p>
-                  <Link to="services" class="btn btn-lg btn-info" role="button">
+                  <Link to="services" class="btn btn-lg btn-light" role="button">
                     Services
                   </Link>
                 </p>
@@ -91,17 +100,17 @@ const Hero = () => {
             </svg>
             <div class="container">
               <div class="carousel-caption text-right">
-                <h1>One more for good measure.</h1>
+                <h1>Fast Response.</h1>
 
                 <p>
-                  Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                  Donec id elit non mi porta gravida at eget metus. Nullam id
-                  dolor id nibh ultricies vehicula ut id elit.
+                We have invested in the best support tools and the best people 
+                in the market to deliver our clients the responsiveness they need – 
+                whether for a single ticket or an engineering project.
                 </p>
                 <p>
                   <Link
                     to="contact"
-                    class="btn btn-lg btn-info"
+                    class="btn btn-lg btn-light"
                     href="#"
                     role="button"
                   >
@@ -130,106 +139,47 @@ const Hero = () => {
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-      </div>
+      </div><br/><br/>
 
       <div class="container marketing">
         <div class="row">
           <div class="col-lg-4">
-            <svg
-              class="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
-              xmlns=""
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-              role="img"
-              aria-label="Placeholder: 140x140"
-            >
-              <title>Our team</title>
-              *///////////Team ////
-              <rect
-                src={Duyoung}
-                alt="duyoung"
-                width="100%"
-                height="100%"
-                fill="#777"
-              />
-              <text x="50%" y="50%" fill="#777" dy=".3em"></text>
-            </svg>
+          <img src={Duyoung} class="mx-auto rounded-circle" alt="..." />
 
-            <h2>Duyoung Jang</h2>
+            <h2 class="p-4">Duyoung Jang</h2>
 
             <p>
-              Donec sed odio dui. Etiam porta sem malesuada magna mollis
-              euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.
-              Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-              Praesent commodo cursus magna.
+            He is responsible for strategy, vision and growth of the company and 
+            has the ability to rise above the daily details and decide where the 
+            industry and business are headed.
             </p>
             <p>
-              <a class="btn btn-secondary" href="#" role="button">
-                Profile &raquo;
-              </a>
+            
             </p>
           </div>
 
           <div class="col-lg-4">
-            <svg
-              class="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
-              xmlns="http://www.w3.org/2000/svg"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-              role="img"
-              aria-label="Placeholder: 140x140"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#777" />
-              <text x="50%" y="50%" fill="#777" dy=".3em">
-                140x140
-              </text>
-            </svg>
-            <h2>Insub Kim</h2>
+          <img src={Insub} class="mx-auto rounded-circle" alt="..." />
+          
+            <h2 class="p-3">Insub Kim</h2>
             <p>
-              Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
-              eget lacinia odio sem nec elit. Cras mattis consectetur purus sit
-              amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor
-              mauris condimentum nibh.
+            He is responsible for the development and architecture 
+            of Enterprise Web Applications and knows how collaboration 
+            and mutual inspiration.
             </p>
             <p>
-              <a class="btn btn-secondary" href="#" role="button">
-                Profile &raquo;
-              </a>
+              
             </p>
           </div>
           <div class="col-lg-4">
-            <svg
-              class="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
-              xmlns="http://www.w3.org/2000/svg"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-              role="img"
-              aria-label="Placeholder: 140x140"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#777" />
-              <text x="50%" y="50%" fill="#777" dy=".3em">
-                140x140
-              </text>
-            </svg>
-            <h2>Sohwa Lee </h2>
+          <img src={Sohwa} class="mx-auto rounded-circle" alt="..." />
+            <h2 class="p-4">Sohwa Lee </h2>
             <p>
-              Donec sed odio dui. Cras justo odio, dapibus ac facilisis in,
-              egestas eget quam. Vestibulum id ligula porta felis euismod
-              semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-              condimentum nibh, ut fermentum massa justo sit amet risus.
+            She is responsible for business 
+            development and advising clients in the area of UI/UX Design.
             </p>
             <p>
-              <a class="btn btn-secondary" href="#" role="button">
-                Profile&raquo;
-              </a>
+             
             </p>
           </div>
         </div>
@@ -239,33 +189,19 @@ const Hero = () => {
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">
-              First featurette heading.{' '}
-              <span class="text-muted">It’ll blow your mind.</span>
+            The Deep-Head team {' '}
+              <span class="text-muted">is highly experienced</span>
             </h2>
             <p class="lead">
-              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
-              ligula porta felis euismod semper. Praesent commodo cursus magna,
-              vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-              commodo.
+            in developing new platforms 
+            in general, 
+            and growth strategies in particular. Our team is made by SEO experts, 
+            UI/UX Design team, and Software development team in areas related to 
+            regulation, web, mobile, online, B2B platforms. 
             </p>
           </div>
           <div class="col-md-5">
-            <svg
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              xmlns="http://www.w3.org/2000/svg"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-              role="img"
-              aria-label="Placeholder: 500x500"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#eee" />
-              <text x="50%" y="50%" fill="#aaa" dy=".3em">
-                500x500
-              </text>
-            </svg>
+          <img src={Main1} class="d-block w-100" alt="..." />
           </div>
         </div>
 
@@ -274,33 +210,18 @@ const Hero = () => {
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading">
-              Oh yeah, it’s that good.{' '}
-              <span class="text-muted">See for yourself.</span>
+            Product outlook {' '}
+              <span class="text-muted">and potential</span>
             </h2>
             <p class="lead">
-              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
-              ligula porta felis euismod semper. Praesent commodo cursus magna,
-              vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-              commodo.
+            We build fully responsible application platforms that 
+            has significantly increased 450% more traffics in general, 
+            and that lead 220% more profit to companies.
             </p>
           </div>
           <div class="col-md-5 order-md-1">
-            <svg
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              xmlns="http://www.w3.org/2000/svg"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-              role="img"
-              aria-label="Placeholder: 500x500"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#eee" />
-              <text x="50%" y="50%" fill="#aaa" dy=".3em">
-                500x500
-              </text>
-            </svg>
+          <img src={Main2} class="d-block w-100" alt="..." />
+      
           </div>
         </div>
 
@@ -309,32 +230,18 @@ const Hero = () => {
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">
-              And lastly, this one. <span class="text-muted">Checkmate.</span>
+            Our team is made  <span class="text-muted">unique by maintaining </span>
             </h2>
             <p class="lead">
-              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
-              ligula porta felis euismod semper. Praesent commodo cursus magna,
-              vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-              commodo.
+            well-user interface and experience, increasing over double 
+            traffic and customers. Also, most importantly, we provide 
+            them the most suitable business platforms for client with unique 
+            business logos, well-design UI/UX and the business’s needs in order 
+            to give them the best experience and results.
             </p>
           </div>
           <div class="col-md-5">
-            <svg
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              xmlns="http://www.w3.org/2000/svg"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-              role="img"
-              aria-label="Placeholder: 500x500"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#eee" />
-              <text x="50%" y="50%" fill="#aaa" dy=".3em">
-                500x500
-              </text>
-            </svg>
+          <img src={Main3} class="d-block w-100" alt="..." />
           </div>
         </div>
 
