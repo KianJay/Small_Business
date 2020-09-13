@@ -1,8 +1,9 @@
 import React from 'react';
 import background from './assets/img/bg2.jpeg';
-import background2 from './assets/img/bg3.jpg';
-import background3 from './assets/img/bg4.jpeg';
+import background2 from './assets/img/bg7.jpg';
+import background3 from './assets/img/bh6.jpg';
 import Duyoung from './assets/img/Duyoung.png';
+import { Link } from 'react-router-dom';
 
 import './carousel.css';
 
@@ -39,9 +40,9 @@ const Hero = () => {
                   dolor id nibh ultricies vehicula ut id elit.
                 </p>
                 <p>
-                  <a class="btn btn-lg btn-info" href="#" role="button">
+                  <Link to="team" class="btn btn-lg btn-info" role="button">
                     Team
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -68,9 +69,9 @@ const Hero = () => {
                   dolor id nibh ultricies vehicula ut id elit.
                 </p>
                 <p>
-                  <a class="btn btn-lg btn-info" href="#" role="button">
+                  <Link to="services" class="btn btn-lg btn-info" role="button">
                     Services
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -98,9 +99,14 @@ const Hero = () => {
                   dolor id nibh ultricies vehicula ut id elit.
                 </p>
                 <p>
-                  <a class="btn btn-lg btn-info" href="#" role="button">
-                    Browse gallery
-                  </a>
+                  <Link
+                    to="contact"
+                    class="btn btn-lg btn-info"
+                    href="#"
+                    role="button"
+                  >
+                    Contact us
+                  </Link>
                 </p>
               </div>
             </div>
@@ -133,7 +139,7 @@ const Hero = () => {
               class="bd-placeholder-img rounded-circle"
               width="140"
               height="140"
-              xmlns={Duyoung}
+              xmlns=""
               preserveAspectRatio="xMidYMid slice"
               focusable="false"
               role="img"
