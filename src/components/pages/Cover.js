@@ -1,5 +1,5 @@
 import React from 'react';
-import './cover.css';
+import './css/cover.css';
 
 const Cover = () => {
   return (

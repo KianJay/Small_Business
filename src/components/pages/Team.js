@@ -1,8 +1,8 @@
 import React from 'react';
-import './App.css';
+import './css/App.css';
 import Footer from './Footer';
 import Duyoung from './assets/img/Duyoung.png';
-import Insub from './assets/img/Insub.jpg';
+import Insub from './assets/img/Insub.jpeg';
 import Sohwa from './assets/img/Sohwa.jpg';
 
 function Team() {

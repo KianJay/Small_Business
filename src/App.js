@@ -7,6 +7,7 @@ import logo from './components/pages/assets/img/logo192.png';
 import Services from './components/pages/Services';
 import Pay from './components/pages/Pay';
 import About from './components/pages/About';
+import Log from './components/pages/Log';
 import NotFound from './components/pages/NotFound';
 import './App.css';
 
@@ -85,6 +86,9 @@ export default function App() {
         </Route>
         <Route path="/pay">
           <Pay />
+        </Route>
+        <Route path="/login">
+          <Log />
         </Route>
         <Route component={NotFound} />
       </Switch>

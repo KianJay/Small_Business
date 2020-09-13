@@ -1,5 +1,5 @@
 import React from 'react';
-import './form-validation.css';
+import './css/form-validation.css';
 import Footer from './Footer';
 import logo from './assets/img/checkout.png';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { SiGmail } from 'react-icons/si';
+import './css/App.css';
 import Instagram from './assets/img/instagram.png';
 
 function Footer() {
