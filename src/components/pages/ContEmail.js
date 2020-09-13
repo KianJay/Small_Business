@@ -29,7 +29,7 @@ export default function ContactUsMail() {
               Phone: 000 111 222<br/>
               Address: 160 Sussex St, Sydney NSW 2000
             </h6>
-            <br/><br/><br/>
+            <br/><br/>
             <h1 class="text-white">Book your consultation here</h1>
             <br/>
           </div>
