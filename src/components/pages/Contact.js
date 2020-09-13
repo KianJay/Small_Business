@@ -3,12 +3,13 @@ import './App.css';
 import Footer from './Footer';
 import Datepicker from './Datepicker';
 import Gmap from './Gmap';
+import Instagram from './assets/img/instagram.png';
 
 const Contact = () => {
   return (
     <div className="Contact">
       <header class="conthead">
-        <div class="row">
+        <div class="row p-5">
           <div class="col-lg-7" id="right-col"></div>
           <div class="col-md-4">
             <h1 class="my-3-header-2"> Contact us! </h1>
@@ -28,10 +29,16 @@ const Contact = () => {
       <section class="page-section" id="contact">
         <div class="container">
           <div class="text-center">
-            <h2 class="section-heading text-uppercase">Contact Us</h2>
-            <h3 class="section-subheading">
-              Our address: 160 Sussex St, Sydney NSW 2000
-            </h3>
+            <h2 class="section-heading text-uppercase">Contact Us</h2><br />
+            <h6 class="text-white">
+             
+              <a href="https://www.instagram.com/deep_____head/" target="_blank" STYLE="text-decoration:none">
+              <p class="text-light"><img src={Instagram} /> 
+            &nbsp; @deep_____head/<br /><br /></p></a>
+            <h6 class="p-1">Phone: 0000 111 222</h6>
+            Address: 160 Sussex St, Sydney NSW 2000
+            </h6><br /><br />
+            
           </div>
           <form id="contactForm" name="sentMessage" novalidate="novalidate">
             <div class="row align-items-stretch mb-5">
@@ -90,7 +97,7 @@ const Contact = () => {
         </div>
       </section>
       <Gmap />
-      <footer>
+      <footer class="p-5">
         <Footer />
       </footer>
     </div>

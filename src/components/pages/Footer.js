@@ -1,5 +1,7 @@
 import React from 'react';
 import { GrInstagram } from 'react-icons/gr';
+import Instagram from './assets/img/instagram.png';
+
 function Footer() {
   return (
     <footer class="container">
@@ -11,13 +13,10 @@ function Footer() {
         <a class="text-black" href="#">
           Privacy
         </a>{' '}
-        &middot; <a href="#">Terms</a>
-        <a
-          class="btn btn-dark btn-social mx-2"
-          href="https://www.instagram.com/deep_____head/"
-        >
-          <GrInstagram />
-        </a>
+        &middot; <a href="#">Terms</a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.instagram.com/deep_____head/" target="_blank" STYLE="text-decoration:none">
+              <img src={Instagram} /> 
+            <br /></a>
       </p>
     </footer>
     // <body class="d-flex flex-column h-100">
