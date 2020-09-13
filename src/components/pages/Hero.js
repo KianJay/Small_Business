@@ -1,7 +1,7 @@
 import React from 'react';
 import background from './assets/img/bg2.jpeg';
-import background2 from './assets/img/bg7.jpg';
-import background3 from './assets/img/bh6.jpg';
+import background2 from './assets/img/bh6.jpg';
+import background3 from './assets/img/bg7.jpg';
 import Duyoung from './assets/img/Duyoung.png';
 import Insub from './assets/img/Insub.jpeg';
 import Sohwa from './assets/img/Sohwa.jpg';
@@ -14,7 +14,7 @@ import './css/carousel.css';
 
 const Hero = () => {
   return (
-    <main role="main">
+    <div role="main">
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -44,7 +44,7 @@ const Hero = () => {
             <div class="container">
               <div class="carousel-caption text-left">
                 <h1 class="text-dark">Best People.</h1>
-
+                <h2>Best Bussiness.</h2>
                 <p>
                   <Link to="team" class="btn btn-lg btn-dark" role="button">
                     Team
@@ -74,11 +74,10 @@ const Hero = () => {
             <div class="container">
               <div class="carousel-caption">
                 <h1 class=" ">Expert Advice.</h1>
-                <h6 class="text-light">
+                <h4 class="text-light">
                   Our technical teams have considerable experience designing and
-                  supporting solutions across the full spectrum. You gain the
-                  benefit of balanced advice without any vendor bias.
-                </h6>
+                  supporting solutions.
+                </h4>
                 <p>
                   <Link
                     to="services"
@@ -113,11 +112,11 @@ const Hero = () => {
               <div class="carousel-caption text-right">
                 <h1>Fast Response.</h1>
 
-                <h6>
+                <h5>
                   We have invested in the best support tools and the best people
-                  in the market to deliver our clients the responsiveness they
-                  need – whether for a single ticket or an engineering project.
-                </h6>
+                  <br />
+                  in the market to deliver our clients the responsiveness.
+                </h5>
                 <p>
                   <Link
                     to="contact"
@@ -254,16 +253,14 @@ const Hero = () => {
             <img src={Main3} class="d-block w-100" alt="..." />
           </div>
         </div>
-
-        <hr class="featurette-divider" />
       </div>
-    </main>
+    </div>
 
     /* <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script> */
   );
 };
 const opa = {
-  opacity: '0.65',
+  opacity: '0.75',
 };
 export default Hero;

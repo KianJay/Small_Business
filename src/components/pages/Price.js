@@ -105,7 +105,6 @@ const Price = () => {
         <br />
         <br />
         <br />
-        <hr class="my-1"></hr>
       </body>
 
       <Footer />

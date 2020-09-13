@@ -8,6 +8,8 @@ import Services from './components/pages/Services';
 import Pay from './components/pages/Pay';
 import About from './components/pages/About';
 import Log from './components/pages/Log';
+import Term from './components/pages/Term';
+import Privacy from './components/pages/Privacy';
 import NotFound from './components/pages/NotFound';
 import './App.css';
 
@@ -89,6 +91,12 @@ export default function App() {
         </Route>
         <Route path="/login">
           <Log />
+        </Route>
+        <Route exact path="/term">
+          <Term />
+        </Route>
+        <Route exact path="/privacy">
+          <Privacy />
         </Route>
         <Route component={NotFound} />
       </Switch>
