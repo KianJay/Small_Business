@@ -11,8 +11,10 @@ function Footer() {
       <hr class="featurette-divider" />
       <div class="row justify-content-center ">
         <div class="col-sm">
-          <p>Head Office: 160 Sussex St, Sydney NSW 2000</p>
-          <p>ABN 33 111 444 555 116</p>
+          <p><a class="footer-a">Head Office:</a> 160 Sussex St, Sydney NSW 2000</p>
+          <p><a class="footer-a">ABN:</a> 33 111 444 555 116</p>
+          <p><a class="footer-a">Email:</a> deephead0920@yandex.com</p>
+          <p><a class="footer-a">Contact:</a> 000 111 222</p>
         </div>
         <Scroll />
         <div class="col-left">

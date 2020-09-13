@@ -36,7 +36,7 @@ const About = () => {
                 <br/>
                 <h3>Goal</h3>
                 <div class="text-muted">
-                  <a> •	Always being conneted with customers to provide theri needs. </a><br/>
+                  <a> •	Always being conneted with customers to provide their needs. </a><br/>
                   <a> •	Retain the 1st position in the world in the same line of business. </a><br/>
                   <a> • Create the products and services that give customers the best satisfaction. </a><br/>
                 </div>

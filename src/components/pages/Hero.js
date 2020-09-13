@@ -162,7 +162,7 @@ const Hero = () => {
             <h6>Chief Executive Officer(CEO), Chief Operating Officer (COO)</h6>
             <br />
             <p>
-              He is responsible for strategy, vision and growth of the company
+              Duyoung is responsible for strategy, vision and growth of the company
               and has the ability to rise above the daily details and decide
               where the industry and business are headed.
             </p>
@@ -176,7 +176,7 @@ const Hero = () => {
             <h6>Senior Full-stack developer / Senior manager</h6>
             <br />
             <p>
-              He is responsible for the development and architecture of
+              Insub is responsible for the development and architecture of
               Enterprise Web Applications and knows how collaboration and mutual
               inspiration.
             </p>
@@ -188,7 +188,7 @@ const Hero = () => {
             <h6>Senior UI/UX Designer / Project manager</h6>
             <br />
             <p>
-              She is responsible for business development and advising clients
+              Sohwa is responsible for business development and advising clients
               in the area of UI/UX Design.
             </p>
             <p></p>
