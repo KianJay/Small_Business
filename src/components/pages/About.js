@@ -1,97 +1,99 @@
 import React from 'react';
-import './App.css';
+import './about.css';
 import Footer from './Footer';
 
-function About() {
+const About = () => {
   return (
-    <div className="About">
-      <section class="page-section" id="about">
+    <div>
+      <div class="about-section paddingTB60 gray-bg">
         <div class="container">
-          <div class="text-center">
-            <h2 class="section-heading text-uppercase">About US</h2>
-            <h3 class="section-subheading text-muted">Journey</h3>
-          </div>
-          <ul class="timeline">
-            <li>
-              <div class="timeline-image"><img class="rounded-circle img-fluid" src={require('../assets/img/about_dh.png')} alt="" /></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>Sep.2020</h4>
-                  <h4 class="subheading">Our Humble Beginnings</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">
-                    Our journey just started with three members: Duyoung, Insub and Sohwa!
-                  </p>
-                  <p class="text-muted">
-                    We are studying at the same university Victoria University
-                    in Sydney and started this journey together!
-                  </p>
+          <div class="row">
+            <div class="col-md-7 col-sm-6">
+              <div class="about-title clearfix">
+                <h1>
+                  About <span>Deep head</span>
+                </h1>
+                <h3>About us </h3>
+                <p class="about-paddingB">
+                  what we do ? Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit. Donec aliquet dolor libero, eget venenatis
+                  mauris finibus dictum. Vestibulum quis elit eget neque
+                  porttitor congue non sit amet dolor. Proin pretium purus a
+                  lorem ornare{' '}
+                </p>
+                <p>
+                  sed lobortis pulvinar. Integer laoreet mi id eros porta
+                  euismod. Suspendisse potenti. Nulla eros mauris, convallis et
+                  sem tempus, viverra hendrerit sapien
+                </p>
+                <h3> Vision </h3>
+                <p>
+                  sed lobortis pulvinar. Integer laoreet mi id eros porta
+                  euismod. Suspendisse potenti. Nulla eros mauris, convallis et
+                  sem tempus, viverra hendrerit sapien
+                </p>
+                <h3>Goal</h3>
+                <p>
+                  sed lobortis pulvinar. Integer laoreet mi id eros porta
+                  euismod. Suspendisse potenti. Nulla eros mauris, convallis et
+                  sem tempus, viverra hendrerit sapien
+                </p>
+                <div class="about-icons">
+                  <ul>
+                    <li>
+                      <a href="https://www.facebook.com/">
+                        <i
+                          id="social-fb"
+                          class="fa fa-facebook-square fa-3x social"
+                        ></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/">
+                        <i
+                          id="social-tw"
+                          class="fa fa-twitter-square fa-3x social"
+                        ></i>
+                      </a>{' '}
+                    </li>
+                    <li>
+                      {' '}
+                      <a href="https://plus.google.com/">
+                        <i
+                          id="social-gp"
+                          class="fa fa-google-plus-square fa-3x social"
+                        ></i>
+                      </a>{' '}
+                    </li>
+                    <li>
+                      {' '}
+                      <a href="mailto:bootsnipp@gmail.com">
+                        <i
+                          id="social-em"
+                          class="fa fa-envelope-square fa-3x social"
+                        ></i>
+                      </a>{' '}
+                    </li>
+                  </ul>
                 </div>
               </div>
-            </li>
-            <li class="timeline-inverted">  
-            <div class="timeline-image">
-              <img class="rounded-circle img-fluid" 
-                   src={require('../../assets/img/about_2.png')}
-                   alt="" /></div>
-               <div class="timeline-panel">
-                <div class="timeline-heading">
-                 <h4>We always</h4>
-                 <h4 class="subheading"></h4>
-                </div>
-               <div class="timeline-body">
-               <p class="text-muted">Create the products and services that give customers the best satisfaction</p>
-               <p class="text-muted">Retain the 1st position in the world in the same line of business</p>
-               </div>
-              </div>
-            </li>
-            <br/>
-            <br/>
-            <li>
-              <div class="timeline-image">
+            </div>
+            <div class="col-md-5 col-sm-6">
+              <div class="about-img">
                 <img
-                  class="rounded-circle img-fluid"
-                  src={require('../../assets/img/about_3.jpg')}
+                  src="https://devitems.com/preview/appmom/img/mobile/2.png"
                   alt=""
                 />
               </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>New Journey</h4>
-                  <h4 class="subheading"></h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">
-                    We are agile and always welcome new changellenges. We are ready to start a new voyage with you!
-                  </p>
-                  <p class="text-muted">
-                    
-                  </p>
-                </div>
-              </div>
-            </li>
-            <br />
-            <br />
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <h4>
-                  Be Part
-                  <br />
-                  Of Our
-                  <br />
-                  Story!
-                </h4>
-              </div>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
-      </section>
-      <footer>
-        <Footer />
-      </footer>
+      </div>
+      <br />
+      <br />
+      <Footer />
     </div>
   );
-}
+};
 
 export default About;

@@ -23,7 +23,12 @@ const Hero = () => {
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src={background} class="d-block w-100 " alt="..." />
+            <img
+              style={opa}
+              src={background}
+              class="d-block w-100 "
+              alt="..."
+            />
             <svg
               class="bd-placeholder-img"
               width="100%"
@@ -38,12 +43,8 @@ const Hero = () => {
 
             <div class="container">
               <div class="carousel-caption text-left">
-                <h1 class="text-dark bg-light w-50">Best People.</h1>
-                <p class="text-dark bg-light w-100">
-                  Deep head is a partnership company by 3 people from Australia,
-                  and Korea, then provide them with ongoing structured training,
-                  along with the best tools, support, processes, and leadership.
-                </p>
+                <h1 class="text-dark">Best People.</h1>
+
                 <p>
                   <Link to="team" class="btn btn-lg btn-dark" role="button">
                     Team
@@ -53,7 +54,12 @@ const Hero = () => {
             </div>
           </div>
           <div class="carousel-item">
-            <img src={background2} class="d-block w-100" alt="..." />
+            <img
+              style={opa}
+              src={background2}
+              class="d-block w-100"
+              alt="..."
+            />
             <svg
               class="bd-placeholder-img"
               width="100%"
@@ -67,12 +73,12 @@ const Hero = () => {
             </svg>
             <div class="container">
               <div class="carousel-caption">
-                <h1 class="bg-primary opacity-3">Expert Advice.</h1>
-                <p class="bg-primary">
+                <h1 class=" ">Expert Advice.</h1>
+                <h6 class="text-light">
                   Our technical teams have considerable experience designing and
                   supporting solutions across the full spectrum. You gain the
                   benefit of balanced advice without any vendor bias.
-                </p>
+                </h6>
                 <p>
                   <Link
                     to="services"
@@ -86,7 +92,12 @@ const Hero = () => {
             </div>
           </div>
           <div class="carousel-item">
-            <img src={background3} class="d-block w-100" alt="..." />
+            <img
+              style={opa}
+              src={background3}
+              class="d-block w-100"
+              alt="..."
+            />
             <svg
               class="bd-placeholder-img"
               width="100%"
@@ -102,11 +113,11 @@ const Hero = () => {
               <div class="carousel-caption text-right">
                 <h1>Fast Response.</h1>
 
-                <p>
+                <h6>
                   We have invested in the best support tools and the best people
                   in the market to deliver our clients the responsiveness they
                   need – whether for a single ticket or an engineering project.
-                </p>
+                </h6>
                 <p>
                   <Link
                     to="contact"
@@ -141,8 +152,8 @@ const Hero = () => {
         </a>
       </div>
       <br />
-      <br />
-
+      <h1 class="text-center">Our Team</h1>
+      <br /> <br />
       <div class="container marketing">
         <div class="row">
           <div class="col-lg-4">
@@ -252,5 +263,7 @@ const Hero = () => {
       <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script> */
   );
 };
-
+const opa = {
+  opacity: '0.65',
+};
 export default Hero;

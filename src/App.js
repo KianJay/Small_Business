@@ -6,6 +6,7 @@ import Price from './components/pages/Price';
 import logo from './components/pages/assets/img/logo192.png';
 import Services from './components/pages/Services';
 import Pay from './components/pages/Pay';
+import About from './components/pages/About';
 import NotFound from './components/pages/NotFound';
 import './App.css';
 
@@ -52,6 +53,9 @@ export default function App() {
             <Link class="nav-link text-black" to="/price">
               <h6>Price</h6>
             </Link>
+            <Link class="nav-link text-black" to="/about">
+              <h6>About us</h6>
+            </Link>
             <Link class="nav-link text-black" to="/contact">
               <h6>Contact us</h6>
             </Link>
@@ -76,6 +80,9 @@ export default function App() {
         </Route>
         <Route path="/price">
           <Price />
+        </Route>
+        <Route path="/about">
+          <About />
         </Route>
         <Route path="/pay">
           <Pay />

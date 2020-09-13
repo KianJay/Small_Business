@@ -105,6 +105,7 @@ function Team() {
             </div>
           </div>
           <hr class="my-2 p-3"></hr>
+          <br />
           <div class="row">
             <div class="col-lg-8 mx-auto text-center">
               <p class="large text-muted">
