@@ -8,15 +8,15 @@ function Footer() {
       <p class="float-right">
         <a href="#">Back to top</a>
       </p>
-      <p>
+      <p class="text-center">
         &copy; 2017-2020 DeepHead, Inc. &middot;{' '}
         <a class="text-black" href="#">
           Privacy
         </a>{' '}
         &middot; <a href="#">Terms</a>&nbsp;&nbsp;&nbsp;
-        <a href="https://www.instagram.com/deep_____head/" target="_blank" STYLE="text-decoration:none">
-              <img src={Instagram} /> 
-            <br /></a>
+          <a href="https://www.instagram.com/deep_____head/" target="_blank" STYLE="text-decoration:none">
+          <img src={Instagram} /> 
+          <br /></a>
       </p>
     </footer>
     // <body class="d-flex flex-column h-100">
