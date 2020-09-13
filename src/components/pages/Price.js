@@ -1,6 +1,6 @@
 import React from 'react';
-import Paypal from './Paypal';
 import Footer from './Footer';
+import Log from './Log';
 import { Link } from 'react-router-dom';
 
 const Price = () => {
@@ -41,12 +41,13 @@ const Price = () => {
                 </ul>
                 <span class="badge badge-light">Limited access</span>
                 <br /> <br />
-                <button
+                <Link
+                  to="login"
                   type="button"
                   class="btn btn-lg btn-block btn-outline-dark"
                 >
                   Sign up for free
-                </button>
+                </Link>
               </div>
             </div>
             <div class="card mb-4 shadow-sm">
@@ -65,9 +66,13 @@ const Price = () => {
                 </ul>
                 <span class="badge badge-info"> Get full Access</span>
                 <br /> <br />
-                <button type="button" class="btn btn-lg btn-block btn-info">
-                  <Link to="Pay"> Get Started </Link>
-                </button>
+                <Link
+                  type="button"
+                  class="btn btn-lg btn-block btn-info"
+                  to="Pay"
+                >
+                  Get Started
+                </Link>
               </div>
             </div>
             <div class="card mb-4 shadow-sm">
@@ -84,11 +89,15 @@ const Price = () => {
                   <li>Phone and email support</li>
                   <li>Help center access</li>
                 </ul>
-                <span class="badge badge-danger"> Booste your Business</span>
+                <span class="badge badge-danger"> Boost your Business</span>
                 <br /> <br />
-                <button type="button" class="btn btn-lg btn-block btn-danger">
-                  <Link to="Pay"> Get Started </Link>
-                </button>
+                <Link
+                  type="button"
+                  class="btn btn-lg btn-block btn-danger"
+                  to="Pay"
+                >
+                  Get Started
+                </Link>
               </div>
             </div>
           </div>
@@ -98,6 +107,7 @@ const Price = () => {
         <br />
         <hr class="my-1"></hr>
       </body>
+
       <Footer />
     </div>
   );

@@ -3,14 +3,14 @@ import background from './assets/img/bg2.jpeg';
 import background2 from './assets/img/bg7.jpg';
 import background3 from './assets/img/bh6.jpg';
 import Duyoung from './assets/img/Duyoung.png';
-import Insub from './assets/img/Insub.jpg';
+import Insub from './assets/img/Insub.jpeg';
 import Sohwa from './assets/img/Sohwa.jpg';
 import Main1 from './assets/img/main1.jpg';
 import Main2 from './assets/img/main2.jpg';
 import Main3 from './assets/img/main3.jpg';
 import { Link } from 'react-router-dom';
 
-import './carousel.css';
+import './css/carousel.css';
 
 const Hero = () => {
   return (
