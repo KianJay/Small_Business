@@ -4,12 +4,13 @@ import Footer from './Footer';
 import Datepicker from './Datepicker';
 import ContactUsMail from './ContEmail';
 import Gmap from './Gmap';
+import Instagram from './assets/img/instagram.png';
 
 const Contact = () => {
   return (
     <div className="Contact">
       <header class="conthead">
-        <div class="row">
+        <div class="row p-5">
           <div class="col-lg-7" id="right-col"></div>
           <div class="col-md-4" id="left-col">
             <h1 class="my-3-header-2"> Contact us! </h1>
@@ -27,7 +28,7 @@ const Contact = () => {
       </header>
       <ContactUsMail/>
       <Gmap />
-      <footer>
+      <footer class="p-5">
         <Footer />
       </footer>
     </div>
