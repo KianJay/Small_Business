@@ -33,14 +33,17 @@ const Price = () => {
                 <h1 class="card-title pricing-card-title">
                   $0 <small class="text-muted">/ mo</small>
                 </h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>10 users included</li>
-                  <li>2 GB of storage</li>
-                  <li>Email support</li>
-                  <li>Help center access</li>
-                </ul>
+                <ul class="text-left mt-3 mb-4">
+                Our Free Membership gives you<br/>
+                access to all our basic level offerings.
+                <br/><br/>
+                  <li>Only one user can access</li>
+                  <li>Free Forum Support</li>
+                  <li>Access to 1 Tutorial</li>
+                  <li>Access to open Help center</li>
+                </ul><br/><br/><br/><br/>
                 <span class="badge badge-light">Limited access</span>
-                <br /> <br />
+                <br /><br />
                 <Link
                   to="login"
                   type="button"
@@ -58,12 +61,15 @@ const Price = () => {
                 <h1 class="card-title pricing-card-title">
                   $15 <small class="text-muted">/ mo</small>
                 </h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>20 users included</li>
-                  <li>10 GB of storage</li>
-                  <li>Priority email support</li>
-                  <li>Help center access</li>
-                </ul>
+                <ul class="text-left mt-3 mb-4">
+                Our Pro Membership gives you<br/>
+                access to our Pro level offering.
+                <br/><br/>
+                  <li>Access to Pro Forum</li>
+                  <li>Access to all Tutorials</li>
+                  <li>Email and Online chat Priority Support</li>
+                  <li>Access to Member only Help center</li>
+                </ul><br/><br/><br/>
                 <span class="badge badge-info"> Get full Access</span>
                 <br /> <br />
                 <Link
@@ -83,11 +89,15 @@ const Price = () => {
                 <h1 class="card-title pricing-card-title">
                   $29 <small class="text-muted">/ mo</small>
                 </h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>30 users included</li>
-                  <li>15 GB of storage</li>
-                  <li>Phone and email support</li>
-                  <li>Help center access</li>
+                <ul class="text-left mt-3 mb-4">
+                Our Enterprise Membership gives 
+                <br/>you access to all our Business level offering.
+                <br/><br/>
+                  <li>Access to Enterprise Forum</li>
+                  <li>Access to all Tutorials</li>
+                  <li>Email and Online chat Priority Support</li>
+                  <li>Access to Member only Help center</li>
+                  <li>Provide Online Free Platform consulting Once</li>
                 </ul>
                 <span class="badge badge-danger"> Boost your Business</span>
                 <br /> <br />
