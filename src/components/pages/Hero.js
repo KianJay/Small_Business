@@ -147,7 +147,8 @@ const Hero = () => {
           <img src={Duyoung} class="mx-auto rounded-circle" alt="..." />
 
             <h2 class="p-4">Duyoung Jang</h2>
-
+            <h6><li>Chief Executive Officer(CEO), Chief Operating Officer (COO)</li></h6>
+            <br/>
             <p>
             He is responsible for strategy, vision and growth of the company and 
             has the ability to rise above the daily details and decide where the 
@@ -162,6 +163,8 @@ const Hero = () => {
           <img src={Insub} class="mx-auto rounded-circle" alt="..." />
           
             <h2 class="p-3">Insub Kim</h2>
+            <h6><li>Senior Full-stack developer / Senior manager</li></h6>
+            <br/>
             <p>
             He is responsible for the development and architecture 
             of Enterprise Web Applications and knows how collaboration 
@@ -174,6 +177,8 @@ const Hero = () => {
           <div class="col-lg-4">
           <img src={Sohwa} class="mx-auto rounded-circle" alt="..." />
             <h2 class="p-4">Sohwa Lee </h2>
+            <h6><li>Senior UI/UX Designer / Project manager</li></h6>
+            <br/>
             <p>
             She is responsible for business 
             development and advising clients in the area of UI/UX Design.
