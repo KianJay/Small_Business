@@ -4,8 +4,10 @@ import Footer from './Footer';
 import Hero from './Hero';
 
 import { Link } from 'react-router-dom';
+
 const Home = () => {
   return (
+  
     <div>
       <Hero />
       {/* <section style={sectionStyle}>

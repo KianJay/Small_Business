@@ -20,7 +20,6 @@ export default function App() {
         </Link>
       </div>
       <div class="row fixed-top  justify-content-center"></div>
-
       <nav class="navbar navbar-expand-lg navbar-light nav ">
         <button
           class="navbar-toggler"
