@@ -112,17 +112,15 @@ function Team() {
                 creates websites and mobile applications to give customers the
                 best satisfaction. We are all willing to hear feedback from
                 customers.
-              </p><br/>
-              <h6>ABN Number: ABN 33 111 444 555 11</h6>
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      <br/><br/><br/>
-      <footer>
-        <Footer />
-      </footer>
+      <br />
+
+      <Footer />
     </div>
   );
 }

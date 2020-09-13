@@ -4,7 +4,6 @@ import Footer from './Footer';
 import Datepicker from './Datepicker';
 import ContactUsMail from './ContEmail';
 import Gmap from './Gmap';
-import Instagram from './assets/img/instagram.png';
 
 const Contact = () => {
   return (
@@ -15,27 +14,23 @@ const Contact = () => {
           <div class="col-md-4" id="left-col">
             <h1 class="my-3-header-2"> Contact us! </h1>
 
-            <p class="subcontact text-muted">
-              {' '}
-              Do you have any issue/question?{' '}
-            </p>
+            <p class="subcontact text-muted">Do you have any issue/question?</p>
             <p class="subcontact text-muted"> Do you have any question? </p>
-            <p class="subcontact text-muted" id="sub_last"> Do you have any help? </p>
+            <p class="subcontact text-muted" id="sub_last">
+              Do you have any help?
+            </p>
 
             <div class="row"></div>
           </div>
         </div>
       </header>
-      <ContactUsMail/>
+      <ContactUsMail />
       <Gmap />
       <footer class="p-5">
         <Footer />
       </footer>
     </div>
-  
-    );
+  );
 };
-
-
 
 export default Contact;

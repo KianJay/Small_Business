@@ -1,25 +1,34 @@
 import React from 'react';
-import { GrInstagram } from 'react-icons/gr';
+
 import Instagram from './assets/img/instagram.png';
 
 function Footer() {
   return (
-    <footer class="container">
-      <p class="float-right">
-        <a href="#">Back to top</a>
-      </p>
-      <p>
-        &copy; 2017-2020 DeepHead, Inc. &middot;{' '}
-        <a class="text-black" href="#">
-          Privacy
-        </a>{' '}
-        &middot; <a href="#">Terms</a>&nbsp;&nbsp;&nbsp;
-        <a href="https://www.instagram.com/deep_____head/" target="_blank" STYLE="text-decoration:none">
-              <img src={Instagram} /> 
-            <br /></a>
-            <p class="text-sm-left font-weight-light">&nbsp;&nbsp;&nbsp;&nbsp;ABN Number: ABN 33 111 444 555 11</p>
-      </p>
-    </footer>
+    <div class="">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Back to top</a>
+          <br />
+          ABN: 33 111 444 555 11
+        </p>
+
+        <p>
+          &copy; 2017-2020 DeepHead, Inc. &middot;{' '}
+          <a class="text-black" href="#">
+            Privacy
+          </a>
+          &middot; <a href="#">Terms</a>&nbsp;&nbsp;&nbsp;
+          <a
+            href="https://www.instagram.com/deep_____head/"
+            target="_blank"
+            STYLE="text-decoration:none"
+          >
+            <img src={Instagram} alt="" />
+          </a>
+        </p>
+      </div>
+    </div>
+
     // <body class="d-flex flex-column h-100">
     //   <main role="main" class="flex-shrink-0">
     //     <div class="container">

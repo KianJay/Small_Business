@@ -40,11 +40,9 @@ const Hero = () => {
               <div class="carousel-caption text-left">
                 <h1 class="text-dark bg-light w-50">Best People.</h1>
                 <p class="text-dark bg-light w-100">
-                Deep head is a partnership company by 3 people from Australia, 
-                and Korea, then provide them with ongoing structured training, 
-                along with the best tools, support, processes, and leadership.
-                
-
+                  Deep head is a partnership company by 3 people from Australia,
+                  and Korea, then provide them with ongoing structured training,
+                  along with the best tools, support, processes, and leadership.
                 </p>
                 <p>
                   <Link to="team" class="btn btn-lg btn-dark" role="button">
@@ -71,14 +69,16 @@ const Hero = () => {
               <div class="carousel-caption">
                 <h1 class="bg-primary opacity-3">Expert Advice.</h1>
                 <p class="bg-primary">
-                Our technical teams have considerable experience designing and 
-                supporting solutions across the full spectrum. You gain the benefit 
-                of balanced advice without any vendor bias.
-
-
+                  Our technical teams have considerable experience designing and
+                  supporting solutions across the full spectrum. You gain the
+                  benefit of balanced advice without any vendor bias.
                 </p>
                 <p>
-                  <Link to="services" class="btn btn-lg btn-light" role="button">
+                  <Link
+                    to="services"
+                    class="btn btn-lg btn-light"
+                    role="button"
+                  >
                     Services
                   </Link>
                 </p>
@@ -103,9 +103,9 @@ const Hero = () => {
                 <h1>Fast Response.</h1>
 
                 <p>
-                We have invested in the best support tools and the best people 
-                in the market to deliver our clients the responsiveness they need – 
-                whether for a single ticket or an engineering project.
+                  We have invested in the best support tools and the best people
+                  in the market to deliver our clients the responsiveness they
+                  need – whether for a single ticket or an engineering project.
                 </p>
                 <p>
                   <Link
@@ -139,53 +139,49 @@ const Hero = () => {
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-      </div><br/><br/>
+      </div>
+      <br />
+      <br />
 
       <div class="container marketing">
         <div class="row">
           <div class="col-lg-4">
-          <img src={Duyoung} class="mx-auto rounded-circle" alt="..." />
+            <img src={Duyoung} class="mx-auto rounded-circle" alt="..." />
 
             <h2 class="p-4">Duyoung Jang</h2>
-            <h6><li>Chief Executive Officer(CEO), Chief Operating Officer (COO)</li></h6>
-            <br/>
+            <h6>Chief Executive Officer(CEO), Chief Operating Officer (COO)</h6>
+            <br />
             <p>
-            He is responsible for strategy, vision and growth of the company and 
-            has the ability to rise above the daily details and decide where the 
-            industry and business are headed.
+              He is responsible for strategy, vision and growth of the company
+              and has the ability to rise above the daily details and decide
+              where the industry and business are headed.
             </p>
-            <p>
-            
-            </p>
+            <p></p>
           </div>
 
           <div class="col-lg-4">
-          <img src={Insub} class="mx-auto rounded-circle" alt="..." />
-          
+            <img src={Insub} class="mx-auto rounded-circle" alt="..." />
+
             <h2 class="p-3">Insub Kim</h2>
-            <h6><li>Senior Full-stack developer / Senior manager</li></h6>
-            <br/>
+            <h6>Senior Full-stack developer / Senior manager</h6>
+            <br />
             <p>
-            He is responsible for the development and architecture 
-            of Enterprise Web Applications and knows how collaboration 
-            and mutual inspiration.
+              He is responsible for the development and architecture of
+              Enterprise Web Applications and knows how collaboration and mutual
+              inspiration.
             </p>
-            <p>
-              
-            </p>
+            <p></p>
           </div>
           <div class="col-lg-4">
-          <img src={Sohwa} class="mx-auto rounded-circle" alt="..." />
+            <img src={Sohwa} class="mx-auto rounded-circle" alt="..." />
             <h2 class="p-4">Sohwa Lee </h2>
-            <h6><li>Senior UI/UX Designer / Project manager</li></h6>
-            <br/>
+            <h6>Senior UI/UX Designer / Project manager</h6>
+            <br />
             <p>
-            She is responsible for business 
-            development and advising clients in the area of UI/UX Design.
+              She is responsible for business development and advising clients
+              in the area of UI/UX Design.
             </p>
-            <p>
-             
-            </p>
+            <p></p>
           </div>
         </div>
 
@@ -194,19 +190,18 @@ const Hero = () => {
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">
-            The Deep-Head team {' '}
+              The Deep-Head team{' '}
               <span class="text-muted">is highly experienced</span>
             </h2>
             <p class="lead">
-            in developing new platforms 
-            in general, 
-            and growth strategies in particular. Our team is made by SEO experts, 
-            UI/UX Design team, and Software development team in areas related to 
-            regulation, web, mobile, online, B2B platforms. 
+              in developing new platforms in general, and growth strategies in
+              particular. Our team is made by SEO experts, UI/UX Design team,
+              and Software development team in areas related to regulation, web,
+              mobile, online, B2B platforms.
             </p>
           </div>
           <div class="col-md-5">
-          <img src={Main1} class="d-block w-100" alt="..." />
+            <img src={Main1} class="d-block w-100" alt="..." />
           </div>
         </div>
 
@@ -215,18 +210,16 @@ const Hero = () => {
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading">
-            Product outlook {' '}
-              <span class="text-muted">and potential</span>
+              Product outlook <span class="text-muted">and potential</span>
             </h2>
             <p class="lead">
-            We build fully responsible application platforms that 
-            has significantly increased 450% more traffics in general, 
-            and that lead 220% more profit to companies.
+              We build fully responsible application platforms that has
+              significantly increased 450% more traffics in general, and that
+              lead 220% more profit to companies.
             </p>
           </div>
           <div class="col-md-5 order-md-1">
-          <img src={Main2} class="d-block w-100" alt="..." />
-      
+            <img src={Main2} class="d-block w-100" alt="..." />
           </div>
         </div>
 
@@ -235,18 +228,19 @@ const Hero = () => {
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">
-            Our team is made  <span class="text-muted">unique by maintaining </span>
+              Our team is made{' '}
+              <span class="text-muted">unique by maintaining </span>
             </h2>
             <p class="lead">
-            well-user interface and experience, increasing over double 
-            traffic and customers. Also, most importantly, we provide 
-            them the most suitable business platforms for client with unique 
-            business logos, well-design UI/UX and the business’s needs in order 
-            to give them the best experience and results.
+              well-user interface and experience, increasing over double traffic
+              and customers. Also, most importantly, we provide them the most
+              suitable business platforms for client with unique business logos,
+              well-design UI/UX and the business’s needs in order to give them
+              the best experience and results.
             </p>
           </div>
           <div class="col-md-5">
-          <img src={Main3} class="d-block w-100" alt="..." />
+            <img src={Main3} class="d-block w-100" alt="..." />
           </div>
         </div>
 
