@@ -7,21 +7,22 @@ const Price = () => {
   return (
     <div>
       <body>
-      <div class="col-lg-8 mx-auto text-center">
-       <h1 class="section-heading text-uppercase p-3">Pricing</h1>
-        <p class="large text-muted p-3">
-          
-        <p>Deep Head offers competitive rates and pricing plans to 
-        help you find one that fits your needs and budget.</p>
-        If you are unsure which pricing plan to choose, 
-        then register for a free trial to see how Deep Head's features can 
-        help you to sell your products and build your business. 
-        You can always upgrade your plan to add new features and functionality to
-        your business.
-        </p>
-
+        <div class="col-lg-8 mx-auto text-center">
+          <h1 class="section-heading text-uppercase p-3">Pricing</h1>
+          <p class="large text-muted p-3">
+            <p>
+              Deep Head offers competitive rates and pricing plans to help you
+              find one that fits your needs and budget.
+            </p>
+            If you are unsure which pricing plan to choose, then register for a
+            free trial to see how Deep Head's features can help you to sell your
+            products and build your business. You can always upgrade your plan
+            to add new features and functionality to your business.
+          </p>
         </div>
-        <hr class="my-3 p-3"></hr><br/><br/>
+        <hr class="my-3 p-3"></hr>
+        <br />
+        <br />
         <div class="container">
           <div class="card-deck mb-3 text-center">
             <div class="card mb-4 shadow-sm">
@@ -38,13 +39,11 @@ const Price = () => {
                   <li>Email support</li>
                   <li>Help center access</li>
                 </ul>
-                <button type="button" class="btn btn-sm btn-outline-success p-2">
-                Limited access
-              </button><br /> <br /> 
-
+                <span class="badge badge-light">Limited access</span>
+                <br /> <br />
                 <button
                   type="button"
-                  class="btn btn-lg btn-block btn-outline-success"
+                  class="btn btn-lg btn-block btn-outline-dark"
                 >
                   Sign up for free
                 </button>
@@ -64,10 +63,8 @@ const Price = () => {
                   <li>Priority email support</li>
                   <li>Help center access</li>
                 </ul>
-                <button type="button" class="btn btn-sm btn-outline-info p-2">
-              Get full Access
-              </button><br /> <br />
-
+                <span class="badge badge-info"> Get full Access</span>
+                <br /> <br />
                 <button type="button" class="btn btn-lg btn-block btn-info">
                   <Link to="Pay"> Get Started </Link>
                 </button>
@@ -87,9 +84,8 @@ const Price = () => {
                   <li>Phone and email support</li>
                   <li>Help center access</li>
                 </ul>
-                <button type="button" class="btn btn-sm btn-outline-danger p-2">
-              Booste your Business
-              </button><br /> <br />
+                <span class="badge badge-danger"> Booste your Business</span>
+                <br /> <br />
                 <button type="button" class="btn btn-lg btn-block btn-danger">
                   <Link to="Pay"> Get Started </Link>
                 </button>
@@ -97,7 +93,9 @@ const Price = () => {
             </div>
           </div>
         </div>
-        <br/><br/><br/>
+        <br />
+        <br />
+        <br />
         <hr class="my-1"></hr>
       </body>
       <Footer />

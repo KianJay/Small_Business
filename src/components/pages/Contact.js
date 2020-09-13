@@ -4,22 +4,17 @@ import Footer from './Footer';
 import Datepicker from './Datepicker';
 import ContactUsMail from './ContEmail';
 import Gmap from './Gmap';
-import Instagram from './assets/img/instagram.png';
 
 const Contact = () => {
   return (
     <div className="Contact">
-
-      <ContactUsMail/>
+      <ContactUsMail />
       <Gmap />
-      <br/>
-      <br/>
-        <Footer />
+      <br />
+      <br />
+      <Footer />
     </div>
-  
-    );
+  );
 };
-
-
 
 export default Contact;

@@ -105,7 +105,7 @@ function Team() {
             </div>
           </div>
           <hr class="my-2 p-3"></hr>
-          <br/>
+          <br />
           <div class="row">
             <div class="col-lg-8 mx-auto text-center">
               <p class="large text-muted">
@@ -113,16 +113,15 @@ function Team() {
                 creates websites and mobile applications to give customers the
                 best satisfaction. We are all willing to hear feedback from
                 customers.
-              </p><br/>
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      <br/><br/><br/>
-      <footer>
-        <Footer />
-      </footer>
+      <br />
+
+      <Footer />
     </div>
   );
 }
