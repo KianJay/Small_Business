@@ -17,6 +17,7 @@ function Footer() {
         <a href="https://www.instagram.com/deep_____head/" target="_blank" STYLE="text-decoration:none">
               <img src={Instagram} /> 
             <br /></a>
+            <p class="text-sm-left font-weight-light">&nbsp;&nbsp;&nbsp;&nbsp;ABN Number: ABN 33 111 444 555 11</p>
       </p>
     </footer>
     // <body class="d-flex flex-column h-100">
