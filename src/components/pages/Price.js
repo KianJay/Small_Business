@@ -36,7 +36,7 @@ const Price = () => {
                 <ul class="text-left mt-3 mb-4">
                 Our Free Membership gives you<br/>
                 access to all our basic level offerings.
-                <br/><br/>
+                <br/><br/><br/>
                   <li>Only one user can access</li>
                   <li>Free Forum Support</li>
                   <li>Access to 1 Tutorial</li>
@@ -64,12 +64,13 @@ const Price = () => {
                 <ul class="text-left mt-3 mb-4">
                 Our Pro Membership gives you<br/>
                 access to our Pro level offering.
-                <br/><br/>
+                <br/><br/><br/>
+                  <li>15 users can access</li>
                   <li>Access to Pro Forum</li>
                   <li>Access to all Tutorials</li>
                   <li>Email and Online chat Priority Support</li>
                   <li>Access to Member only Help center</li>
-                </ul><br/><br/><br/>
+                </ul><br/><br/>
                 <span class="badge badge-info"> Get full Access</span>
                 <br /> <br />
                 <Link
@@ -93,6 +94,7 @@ const Price = () => {
                 Our Enterprise Membership gives 
                 <br/>you access to all our Business level offering.
                 <br/><br/>
+                  <li>30 users can access</li>
                   <li>Access to Enterprise Forum</li>
                   <li>Access to all Tutorials</li>
                   <li>Email and Online chat Priority Support</li>
