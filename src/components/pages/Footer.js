@@ -29,7 +29,16 @@ function Footer() {
           <br />
           <p> &copy; 2020 DeepHead, Inc. </p>
         </div>
-      </div>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <h4 class="text-center text-danger">“This website/app is for a class assignment and not for commercial purposes”</h4>
+        <br/>
+        <br/>
+        <br/>
+
     </div>
   );
 }
