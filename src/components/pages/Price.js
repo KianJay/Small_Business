@@ -46,6 +46,7 @@ const Price = () => {
                 <br />
                 <br />
                 <br />
+                <br />
                 <span class="badge badge-light">Limited access</span>
                 <br />
                 <br />
