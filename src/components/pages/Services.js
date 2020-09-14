@@ -2,6 +2,8 @@ import React from 'react';
 import './css/App.css';
 import Footer from './Footer';
 
+import { Link } from 'react-router-dom';
+
 function Services() {
   return (
     <div>
@@ -13,12 +15,12 @@ function Services() {
                 Get the best services that help your business improve!{' '}
               </h1>
               <div class="ser-btn">
-                <a
+                <Link
+                  to="price"
                   class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-                  href="./Price"
                 >
                   Get it free
-                </a>
+                </Link>
               </div>
             </div>
             <div class="col-lg" id="right-col"></div>
