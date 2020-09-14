@@ -1,6 +1,5 @@
 import React from 'react';
 import Footer from './Footer';
-import Log from './Log';
 import { Link } from 'react-router-dom';
 
 const Price = () => {
@@ -34,15 +33,22 @@ const Price = () => {
                   $0 <small class="text-muted">/ mo</small>
                 </h1>
                 <ul class="text-left mt-3 mb-4">
-                Our Free Membership gives you<br/>
-                access to all our basic level offerings.
-                <br/><br/><br/>
+                  Our Free Membership gives you
+                  <br />
+                  access to all our basic level offerings.
+                  <br />
+                  <br />
+                  <br />
                   <li>Only one user can access</li>
                   <li>Free Forum Support</li>
                   <li>Access to open Help center</li>
-                </ul><br/><br/><br/><br/>
+                </ul>
+                <br />
+                <br />
+                <br />
                 <span class="badge badge-light">Limited access</span>
-                <br /><br />
+                <br />
+                <br />
                 <Link
                   to="login"
                   type="button"
@@ -61,14 +67,19 @@ const Price = () => {
                   $15 <small class="text-muted">/ mo</small>
                 </h1>
                 <ul class="text-left mt-3 mb-4">
-                Our Pro Membership gives you<br/>
-                access to our Pro level offering.
-                <br/><br/><br/>
+                  Our Pro Membership gives you
+                  <br />
+                  access to our Pro level offering.
+                  <br />
+                  <br />
+                  <br />
                   <li>15 users can access</li>
                   <li>Access to Pro Forum</li>
                   <li>Email and Online chat Priority Support</li>
                   <li>Access to Member only Help center</li>
-                </ul><br/><br/>
+                </ul>
+                <br />
+                <br />
                 <span class="badge badge-info"> Get full Access</span>
                 <br /> <br />
                 <Link
@@ -89,9 +100,11 @@ const Price = () => {
                   $29 <small class="text-muted">/ mo</small>
                 </h1>
                 <ul class="text-left mt-3 mb-4">
-                Our Enterprise Membership gives 
-                <br/>you access to all our Business level offering.
-                <br/><br/>
+                  Our Enterprise Membership gives
+                  <br />
+                  you access to all our Business level offering.
+                  <br />
+                  <br />
                   <li>30 users can access</li>
                   <li>Access to Enterprise Forum</li>
                   <li>Email and Online chat Priority Support</li>

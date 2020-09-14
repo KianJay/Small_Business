@@ -1,5 +1,4 @@
 import React from 'react';
-import Logo from './assets/img/logo512.png';
 import './css/signin.css';
 
 const Log = () => {
