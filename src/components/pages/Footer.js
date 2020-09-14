@@ -11,10 +11,10 @@ function Footer() {
       <hr class="featurette-divider" />
       <div class="row justify-content-center ">
         <div class="col-sm">
-          <p><a class="footer-a">Head Office:</a> 160 Sussex St, Sydney NSW 2000</p>
-          <p><a class="footer-a">ABN:</a> 33 111 444 555 116</p>
-          <p><a class="footer-a">Email:</a> deephead0920@yandex.com</p>
-          <p><a class="footer-a">Contact:</a> 000 111 222</p>
+          <p class="footer-a">Head Office:160 Sussex St, Sydney NSW 2000</p>
+          <p class="footer-a">ABN: 33 111 444 555 116</p>
+          <p class="footer-a">Email: deephead0920@yandex.com</p>
+          <p class="footer-a">Contact: 000 111 222</p>
         </div>
         <Scroll />
         <div class="col-left">
@@ -29,16 +29,18 @@ function Footer() {
           <br />
           <p> &copy; 2020 DeepHead, Inc. </p>
         </div>
-        </div>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <h4 class="text-center text-danger">“This website/app is for a class assignment and not for commercial purposes”</h4>
-        <br/>
-        <br/>
-        <br/>
-
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <h4 class="text-center text-danger">
+        “This website/app is for a class assignment and not for commercial
+        purposes”
+      </h4>
+      <br />
+      <br />
+      <br />
     </div>
   );
 }
