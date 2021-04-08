@@ -16,8 +16,8 @@ And on the footer, including our website privacy, terms and our social media ser
 Built with React.js, Bootstrap, Node.js and Netlify to deploy the web site
 
 To set-up
-run npm i && npm start for both client and server side to start the development server
-[Web-Site](https://smallbusiness2020.netlify.app) Deployed with Netlify</br>
+run npm i && npm start for both client and server side to start the development server </br>
+<strong>[Web-Site](https://smallbusiness2020.netlify.app) Deployed with Netlify</strong>
 
 
 ## 1 Company information
