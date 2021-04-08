@@ -1,8 +1,21 @@
 # Small_business
-Contributed by Duyoung Jang, Insup Kim and Sohwa Lee</br >
-We were given a task to establish a small business buidling a professional business Web Site 
 
-[DeepHead](https://smallbusiness2020.netlify.app)</br>
+<img width="528" alt="Screen Shot 2021-04-08 at 11 08 23 pm" src="https://user-images.githubusercontent.com/54985943/114041308-64aa7400-98bf-11eb-9baa-493d29677c7c.png"></hr>
+
+</br>
+Contributed by Duyoung Jang, Insup Kim and Sohwa Lee</br >
+
+## Motivation
+We were given a 6 days project to establish and plan a small business </br>
+buidling a professional business Web Site as a team 
+
+## Stacks And Libraries
+Built with React.js, Bootstrap, Node.js and Netlify to deploy the web site
+
+To set-up
+run npm i && npm start for both client and server side to start the development server
+[Web-Site](https://smallbusiness2020.netlify.app) Deployed with Netlify</br>
+
 </br>
 ## 1 Company information
 Deep Head, Platform Consultants (Partnership by 3 people) Incorporated On: 01 September 2020</br>
