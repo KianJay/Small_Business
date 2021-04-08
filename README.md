@@ -18,7 +18,6 @@ To set-up
 run npm i && npm start for both client and server side to start the development server
 [Web-Site](https://smallbusiness2020.netlify.app) Deployed with Netlify</br>
 
-</br>
 
 ## 1 Company information
 
