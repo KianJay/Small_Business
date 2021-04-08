@@ -4,10 +4,12 @@
 
 </br>
 Contributed by Duyoung Jang, Insup Kim and Sohwa Lee</br >
-
+This Web Site has been built for the purpose of an assignment.
 ## Motivation
 We were given a 6 days project to establish and plan a small business </br>
-buidling a professional business Web Site as a team 
+buidling a professional business Web Site as a team </br>
+home, Team, Service, price, about us and contact us pages</br>
+And on the footer, including our website privacy, terms and our social media service.</br>
 
 ## Stacks And Libraries
 Built with React.js, Bootstrap, Node.js and Netlify to deploy the web site
@@ -17,7 +19,9 @@ run npm i && npm start for both client and server side to start the development 
 [Web-Site](https://smallbusiness2020.netlify.app) Deployed with Netlify</br>
 
 </br>
+
 ## 1 Company information
+
 Deep Head, Platform Consultants (Partnership by 3 people) Incorporated On: 01 September 2020</br>
 Next Confirmation statement date: 25 September 2021</br>
 Accounts: Next accounts made up to 30 September 2021</br>
@@ -28,6 +32,7 @@ development team in areas related to regulation, web, mobile, online, B2B platfo
 average over 10 years’ experience in this field. The teams combine industry-</br>
 leading Big Data and strategic insights with practical experience in prioritizing, igniting, and</br>
 monetizing innovation in platform businesses big and small.</br>
+
 ### 1.2 Mission Statement
 To have our best connection with clients, we are not to focus on technologies but on you.</br>
 • Economic Situation </br>
