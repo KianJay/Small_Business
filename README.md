@@ -45,7 +45,7 @@ The happier clients are, the more successful we are.
 We are a global team that values diversity.</br>
 We trust each other and have a good time succeeding together.</br>
 We create sustainable growth.</br>
-## 2 Target customers
+## 2 Targets
 New platform businesses often face a long and tough journey </br> 
 from having a great idea to reaching the critical mass necessary for ignition and growth of platforms.</br>
 Deep-Head Consultant team drives ignition strategies </br>
