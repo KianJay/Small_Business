@@ -3,7 +3,7 @@
 <img width="528" alt="Screen Shot 2021-04-08 at 11 08 23 pm" src="https://user-images.githubusercontent.com/54985943/114041308-64aa7400-98bf-11eb-9baa-493d29677c7c.png"></hr>
 
 </br>
-Contributed by Duyoung Jang, Insup Kim and Sohwa Lee</br >
+Contributed by<strong> Duyoung Jang, Insup Kim and Sohwa Lee </strong></br >
 This Web Site has been built for the purpose of an assignment.
 ## Motivation
 We were given a 6 days project to establish and plan a small business </br>
