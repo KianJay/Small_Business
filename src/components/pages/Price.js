@@ -46,7 +46,7 @@ const Price = () => {
                 <br />
                 <br />
                 <br />
-                <br />
+
                 <span class="badge badge-light">Limited access</span>
                 <br />
                 <br />
@@ -57,6 +57,8 @@ const Price = () => {
                 >
                   Sign up for free
                 </Link>
+                <br />
+                <br />
               </div>
             </div>
             <div class="card mb-4 shadow-sm">

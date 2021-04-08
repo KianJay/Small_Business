@@ -17,6 +17,7 @@
     "bootstrap": "^4.5.0",
     "emailjs-com": "^2.6.3",
     "moment": "^2.27.0",
+    "node": "^15.12.0",
     "pug": "^3.0.0",
     "react": "^16.13.1",
     "react-availability-calendar": "^0.3.13",
