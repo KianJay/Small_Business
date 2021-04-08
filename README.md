@@ -1,4 +1,4 @@
-# Small_business
+# Small_Business
 <img width="528" alt="Screen Shot 2021-04-08 at 11 08 23 pm" src="https://user-images.githubusercontent.com/54985943/114041308-64aa7400-98bf-11eb-9baa-493d29677c7c.png"></hr>
 
 Contributed by<strong> Duyoung Jang, Insup Kim and Sohwa Lee </strong></br >
