@@ -5,8 +5,9 @@
 </br>
 Contributed by<strong> Duyoung Jang, Insup Kim and Sohwa Lee </strong></br >
 This Web Site has been built for the purpose of an assignment.
+
 ## Motivation
-We were given a 6 days project to establish and plan a small business </br>
+We were given 6 days project to establish and plan a small business </br>
 buidling a professional business Web Site as a team </br>
 home, Team, Service, price, about us and contact us pages</br>
 And on the footer, including our website privacy, terms and our social media service.</br>
