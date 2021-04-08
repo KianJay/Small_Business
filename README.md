@@ -1,10 +1,9 @@
 # Small_business
-
 <img width="528" alt="Screen Shot 2021-04-08 at 11 08 23 pm" src="https://user-images.githubusercontent.com/54985943/114041308-64aa7400-98bf-11eb-9baa-493d29677c7c.png"></hr>
 
-</br>
 Contributed by<strong> Duyoung Jang, Insup Kim and Sohwa Lee </strong></br >
-This Web Site has been built for the purpose of an assignment.
+This Web Site has been built for the purpose of an assignment.</br>
+<strong>[Web-Site](https://smallbusiness2020.netlify.app) Deployed with Netlify</strong>
 
 ## Motivation
 We were given 6 days project to establish and plan a small business </br>
@@ -12,12 +11,13 @@ buidling a professional business Web Site as a team </br>
 home, Team, Service, price, about us and contact us pages</br>
 And on the footer, including our website privacy, terms and our social media service.</br>
 
+
 ## Stacks And Libraries
 Built with React.js, Bootstrap, Node.js and Netlify to deploy the web site
 
-To set-up
+## To set-up
 run npm i && npm start for both client and server side to start the development server </br>
-<strong>[Web-Site](https://smallbusiness2020.netlify.app) Deployed with Netlify</strong>
+
 
 
 ## 1 Company information
